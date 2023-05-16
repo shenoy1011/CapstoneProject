@@ -1,0 +1,3 @@
+rootfs/*.bag
+rootfs/*.pcd
+rootfs/ros2_ws/log

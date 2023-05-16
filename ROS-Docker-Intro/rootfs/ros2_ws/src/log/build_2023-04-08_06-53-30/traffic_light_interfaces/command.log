@@ -1,0 +1,6 @@
+Invoking command in '/root/rootfs/ros2_ws/src/build/traffic_light_interfaces': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /root/rootfs/ros2_ws/src/traffic_light_interfaces -DCMAKE_INSTALL_PREFIX=/root/rootfs/ros2_ws/src/install/traffic_light_interfaces
+Invoked command in '/root/rootfs/ros2_ws/src/build/traffic_light_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /root/rootfs/ros2_ws/src/traffic_light_interfaces -DCMAKE_INSTALL_PREFIX=/root/rootfs/ros2_ws/src/install/traffic_light_interfaces
+Invoking command in '/root/rootfs/ros2_ws/src/build/traffic_light_interfaces': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /root/rootfs/ros2_ws/src/build/traffic_light_interfaces -- -j2 -l2
+Invoked command in '/root/rootfs/ros2_ws/src/build/traffic_light_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /root/rootfs/ros2_ws/src/build/traffic_light_interfaces -- -j2 -l2
+Invoking command in '/root/rootfs/ros2_ws/src/build/traffic_light_interfaces': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /root/rootfs/ros2_ws/src/build/traffic_light_interfaces
+Invoked command in '/root/rootfs/ros2_ws/src/build/traffic_light_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /root/rootfs/ros2_ws/src/build/traffic_light_interfaces

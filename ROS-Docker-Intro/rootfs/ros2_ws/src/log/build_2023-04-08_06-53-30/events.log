@@ -1,0 +1,1222 @@
+[0.000000] (-) TimerEvent: {}
+[0.002815] (-) JobUnselected: {'identifier': 'my_package'}
+[0.004844] (-) JobUnselected: {'identifier': 'project_package'}
+[0.006716] (-) JobUnselected: {'identifier': 'turtlesim'}
+[0.010833] (traffic_light_interfaces) JobQueued: {'identifier': 'traffic_light_interfaces', 'dependencies': OrderedDict()}
+[0.013932] (traffic_light_interfaces) JobStarted: {'identifier': 'traffic_light_interfaces'}
+[0.100538] (-) TimerEvent: {}
+[0.212660] (-) TimerEvent: {}
+[0.232915] (traffic_light_interfaces) JobProgress: {'identifier': 'traffic_light_interfaces', 'progress': 'cmake'}
+[0.250803] (traffic_light_interfaces) Command: {'cmd': ['/usr/bin/cmake', '/root/rootfs/ros2_ws/src/traffic_light_interfaces', '-DCMAKE_INSTALL_PREFIX=/root/rootfs/ros2_ws/src/install/traffic_light_interfaces'], 'cwd': '/root/rootfs/ros2_ws/src/build/traffic_light_interfaces', 'env': OrderedDict([('VNCDESKTOP', '35f23200f3cc:1 (root)'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HOSTNAME', '35f23200f3cc'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/root'), ('OLDPWD', '/root/rootfs/ros2_ws'), ('ROS_PYTHON_VERSION', '3'), ('LC_CTYPE', 'C.UTF-8'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'foxy'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':1'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/root/rootfs/ros2_ws/src/build/traffic_light_interfaces'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.344391] (-) TimerEvent: {}
+[0.447279] (-) TimerEvent: {}
+[0.553403] (-) TimerEvent: {}
+[0.657049] (-) TimerEvent: {}
+[0.762300] (-) TimerEvent: {}
+[0.865048] (-) TimerEvent: {}
+[0.968149] (-) TimerEvent: {}
+[1.071106] (-) TimerEvent: {}
+[1.176758] (-) TimerEvent: {}
+[1.283078] (-) TimerEvent: {}
+[1.389797] (-) TimerEvent: {}
+[1.494820] (-) TimerEvent: {}
+[1.596809] (-) TimerEvent: {}
+[1.699847] (-) TimerEvent: {}
+[1.802913] (-) TimerEvent: {}
+[1.904767] (-) TimerEvent: {}
+[2.006354] (-) TimerEvent: {}
+[2.040580] (traffic_light_interfaces) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[2.107849] (-) TimerEvent: {}
+[2.211124] (-) TimerEvent: {}
+[2.313809] (-) TimerEvent: {}
+[2.416525] (-) TimerEvent: {}
+[2.519801] (-) TimerEvent: {}
+[2.622099] (-) TimerEvent: {}
+[2.729104] (-) TimerEvent: {}
+[2.831838] (-) TimerEvent: {}
+[2.934770] (-) TimerEvent: {}
+[3.037833] (-) TimerEvent: {}
+[3.113152] (traffic_light_interfaces) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[3.138651] (-) TimerEvent: {}
+[3.242634] (-) TimerEvent: {}
+[3.265544] (traffic_light_interfaces) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[3.342914] (-) TimerEvent: {}
+[3.444663] (-) TimerEvent: {}
+[3.547365] (-) TimerEvent: {}
+[3.649357] (-) TimerEvent: {}
+[3.752606] (-) TimerEvent: {}
+[3.855383] (-) TimerEvent: {}
+[3.957873] (-) TimerEvent: {}
+[4.059652] (-) TimerEvent: {}
+[4.122777] (traffic_light_interfaces) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[4.133863] (traffic_light_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[4.160101] (-) TimerEvent: {}
+[4.261896] (-) TimerEvent: {}
+[4.364765] (-) TimerEvent: {}
+[4.466658] (-) TimerEvent: {}
+[4.568353] (-) TimerEvent: {}
+[4.670003] (-) TimerEvent: {}
+[4.772736] (-) TimerEvent: {}
+[4.877077] (-) TimerEvent: {}
+[4.979427] (-) TimerEvent: {}
+[5.085711] (-) TimerEvent: {}
+[5.102788] (traffic_light_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[5.161320] (traffic_light_interfaces) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[5.166664] (traffic_light_interfaces) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[5.186070] (-) TimerEvent: {}
+[5.213575] (traffic_light_interfaces) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[5.286275] (-) TimerEvent: {}
+[5.388959] (-) TimerEvent: {}
+[5.490768] (-) TimerEvent: {}
+[5.595647] (-) TimerEvent: {}
+[5.697385] (-) TimerEvent: {}
+[5.799921] (-) TimerEvent: {}
+[5.901267] (-) TimerEvent: {}
+[6.003109] (-) TimerEvent: {}
+[6.080706] (traffic_light_interfaces) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[6.088736] (traffic_light_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[6.103760] (-) TimerEvent: {}
+[6.206601] (-) TimerEvent: {}
+[6.308531] (-) TimerEvent: {}
+[6.410156] (-) TimerEvent: {}
+[6.512760] (-) TimerEvent: {}
+[6.614671] (-) TimerEvent: {}
+[6.716304] (-) TimerEvent: {}
+[6.818664] (-) TimerEvent: {}
+[6.921393] (-) TimerEvent: {}
+[7.021039] (traffic_light_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[7.026675] (-) TimerEvent: {}
+[7.088965] (traffic_light_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[7.095156] (traffic_light_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[7.127147] (-) TimerEvent: {}
+[7.201129] (traffic_light_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[7.228061] (-) TimerEvent: {}
+[7.300571] (traffic_light_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[7.306851] (traffic_light_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[7.328673] (-) TimerEvent: {}
+[7.431408] (-) TimerEvent: {}
+[7.533312] (-) TimerEvent: {}
+[7.635316] (-) TimerEvent: {}
+[7.737045] (-) TimerEvent: {}
+[7.838854] (-) TimerEvent: {}
+[7.941264] (-) TimerEvent: {}
+[8.050597] (-) TimerEvent: {}
+[8.153569] (-) TimerEvent: {}
+[8.241318] (traffic_light_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)\n'}
+[8.254073] (-) TimerEvent: {}
+[8.293846] (traffic_light_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[8.349728] (traffic_light_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[8.354323] (-) TimerEvent: {}
+[8.455720] (-) TimerEvent: {}
+[8.558771] (-) TimerEvent: {}
+[8.662922] (-) TimerEvent: {}
+[8.765038] (-) TimerEvent: {}
+[8.867181] (-) TimerEvent: {}
+[8.927094] (traffic_light_interfaces) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[8.969839] (-) TimerEvent: {}
+[9.058238] (traffic_light_interfaces) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[9.069986] (-) TimerEvent: {}
+[9.172399] (-) TimerEvent: {}
+[9.274817] (-) TimerEvent: {}
+[9.376698] (-) TimerEvent: {}
+[9.411077] (traffic_light_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[9.476944] (-) TimerEvent: {}
+[9.578590] (-) TimerEvent: {}
+[9.682116] (-) TimerEvent: {}
+[9.784209] (-) TimerEvent: {}
+[9.786968] (traffic_light_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") \n'}
+[9.884387] (-) TimerEvent: {}
+[9.986708] (-) TimerEvent: {}
+[10.089048] (-) TimerEvent: {}
+[10.212570] (-) TimerEvent: {}
+[10.314642] (-) TimerEvent: {}
+[10.417861] (-) TimerEvent: {}
+[10.519608] (-) TimerEvent: {}
+[10.622661] (-) TimerEvent: {}
+[10.669261] (traffic_light_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)\n'}
+[10.722803] (-) TimerEvent: {}
+[10.824566] (-) TimerEvent: {}
+[10.927019] (-) TimerEvent: {}
+[11.029563] (-) TimerEvent: {}
+[11.130978] (-) TimerEvent: {}
+[11.233607] (-) TimerEvent: {}
+[11.335582] (-) TimerEvent: {}
+[11.438616] (-) TimerEvent: {}
+[12.529075] (-) TimerEvent: {}
+[12.637561] (-) TimerEvent: {}
+[12.739097] (-) TimerEvent: {}
+[12.841152] (-) TimerEvent: {}
+[12.943081] (-) TimerEvent: {}
+[12.950197] (traffic_light_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[13.055368] (-) TimerEvent: {}
+[13.174353] (-) TimerEvent: {}
+[13.276559] (-) TimerEvent: {}
+[13.378639] (-) TimerEvent: {}
+[13.481158] (-) TimerEvent: {}
+[13.583272] (-) TimerEvent: {}
+[13.684788] (traffic_light_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[13.688684] (-) TimerEvent: {}
+[13.739545] (traffic_light_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[13.750053] (traffic_light_interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)\n'}
+[13.788801] (-) TimerEvent: {}
+[13.842539] (traffic_light_interfaces) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[13.849214] (traffic_light_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[13.853988] (traffic_light_interfaces) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8\n'}
+[13.858821] (traffic_light_interfaces) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so\n'}
+[13.891155] (-) TimerEvent: {}
+[13.917836] (traffic_light_interfaces) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[13.991373] (-) TimerEvent: {}
+[14.093150] (-) TimerEvent: {}
+[14.195191] (-) TimerEvent: {}
+[14.296895] (-) TimerEvent: {}
+[14.399286] (-) TimerEvent: {}
+[14.501485] (-) TimerEvent: {}
+[14.603635] (-) TimerEvent: {}
+[14.706391] (-) TimerEvent: {}
+[14.808081] (-) TimerEvent: {}
+[14.910644] (-) TimerEvent: {}
+[15.012545] (-) TimerEvent: {}
+[15.116053] (-) TimerEvent: {}
+[15.218053] (-) TimerEvent: {}
+[15.321429] (-) TimerEvent: {}
+[15.409801] (traffic_light_interfaces) StdoutLine: {'line': b'-- Configuring done\n'}
+[15.421572] (-) TimerEvent: {}
+[15.525704] (-) TimerEvent: {}
+[15.627549] (-) TimerEvent: {}
+[15.729775] (-) TimerEvent: {}
+[15.832162] (-) TimerEvent: {}
+[15.935573] (-) TimerEvent: {}
+[16.037516] (-) TimerEvent: {}
+[16.139900] (-) TimerEvent: {}
+[16.245297] (-) TimerEvent: {}
+[16.347141] (-) TimerEvent: {}
+[16.448607] (-) TimerEvent: {}
+[16.550651] (-) TimerEvent: {}
+[16.652958] (-) TimerEvent: {}
+[16.755229] (-) TimerEvent: {}
+[16.856922] (-) TimerEvent: {}
+[16.960274] (-) TimerEvent: {}
+[17.100763] (-) TimerEvent: {}
+[17.225083] (-) TimerEvent: {}
+[17.327306] (-) TimerEvent: {}
+[17.429638] (-) TimerEvent: {}
+[17.532150] (-) TimerEvent: {}
+[17.634365] (-) TimerEvent: {}
+[17.735968] (-) TimerEvent: {}
+[17.838804] (-) TimerEvent: {}
+[17.942268] (-) TimerEvent: {}
+[18.045671] (-) TimerEvent: {}
+[18.149500] (-) TimerEvent: {}
+[18.251233] (-) TimerEvent: {}
+[18.343734] (traffic_light_interfaces) StdoutLine: {'line': b'-- Generating done\n'}
+[18.353277] (-) TimerEvent: {}
+[18.456175] (-) TimerEvent: {}
+[18.559878] (-) TimerEvent: {}
+[18.663408] (-) TimerEvent: {}
+[18.722528] (traffic_light_interfaces) StdoutLine: {'line': b'-- Build files have been written to: /root/rootfs/ros2_ws/src/build/traffic_light_interfaces\n'}
+[18.785918] (-) TimerEvent: {}
+[18.789222] (traffic_light_interfaces) CommandEnded: {'returncode': 0}
+[18.882692] (traffic_light_interfaces) JobProgress: {'identifier': 'traffic_light_interfaces', 'progress': 'build'}
+[18.884290] (traffic_light_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/root/rootfs/ros2_ws/src/build/traffic_light_interfaces', '--', '-j2', '-l2'], 'cwd': '/root/rootfs/ros2_ws/src/build/traffic_light_interfaces', 'env': OrderedDict([('VNCDESKTOP', '35f23200f3cc:1 (root)'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HOSTNAME', '35f23200f3cc'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/root'), ('OLDPWD', '/root/rootfs/ros2_ws'), ('ROS_PYTHON_VERSION', '3'), ('LC_CTYPE', 'C.UTF-8'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'foxy'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':1'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/root/rootfs/ros2_ws/src/build/traffic_light_interfaces'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[18.926324] (-) TimerEvent: {}
+[19.029353] (-) TimerEvent: {}
+[19.131165] (-) TimerEvent: {}
+[19.233414] (-) TimerEvent: {}
+[19.283368] (traffic_light_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target traffic_light_interfaces__cpp\x1b[0m\n'}
+[19.312220] (traffic_light_interfaces) StdoutLine: {'line': b'[  1%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[19.333785] (-) TimerEvent: {}
+[19.438518] (-) TimerEvent: {}
+[19.467096] (traffic_light_interfaces) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[19.538700] (-) TimerEvent: {}
+[19.645250] (-) TimerEvent: {}
+[19.750737] (-) TimerEvent: {}
+[19.885131] (-) TimerEvent: {}
+[20.001784] (-) TimerEvent: {}
+[20.104980] (-) TimerEvent: {}
+[20.217516] (-) TimerEvent: {}
+[20.322180] (-) TimerEvent: {}
+[20.424455] (-) TimerEvent: {}
+[20.526320] (-) TimerEvent: {}
+[20.628157] (-) TimerEvent: {}
+[20.730513] (-) TimerEvent: {}
+[20.833608] (-) TimerEvent: {}
+[20.939378] (-) TimerEvent: {}
+[21.042706] (-) TimerEvent: {}
+[21.145563] (-) TimerEvent: {}
+[21.248287] (-) TimerEvent: {}
+[21.350839] (-) TimerEvent: {}
+[21.453268] (-) TimerEvent: {}
+[21.555644] (-) TimerEvent: {}
+[21.660209] (-) TimerEvent: {}
+[21.763017] (-) TimerEvent: {}
+[21.866062] (-) TimerEvent: {}
+[21.968720] (-) TimerEvent: {}
+[22.072043] (-) TimerEvent: {}
+[22.181528] (-) TimerEvent: {}
+[22.287528] (-) TimerEvent: {}
+[22.391322] (-) TimerEvent: {}
+[22.495240] (-) TimerEvent: {}
+[22.597684] (-) TimerEvent: {}
+[22.700429] (-) TimerEvent: {}
+[22.703963] (traffic_light_interfaces) StdoutLine: {'line': b'[  3%] Built target traffic_light_interfaces__cpp\n'}
+[22.800712] (-) TimerEvent: {}
+[22.818498] (traffic_light_interfaces) StdoutLine: {'line': b'[  4%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[22.901596] (-) TimerEvent: {}
+[23.011188] (-) TimerEvent: {}
+[23.113376] (-) TimerEvent: {}
+[23.215536] (-) TimerEvent: {}
+[23.317643] (-) TimerEvent: {}
+[23.394392] (traffic_light_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target traffic_light_interfaces__rosidl_generator_c\x1b[0m\n'}
+[23.418013] (-) TimerEvent: {}
+[23.520219] (-) TimerEvent: {}
+[23.624090] (-) TimerEvent: {}
+[23.726363] (-) TimerEvent: {}
+[23.827963] (-) TimerEvent: {}
+[23.930983] (-) TimerEvent: {}
+[24.033124] (-) TimerEvent: {}
+[24.135264] (-) TimerEvent: {}
+[24.237017] (-) TimerEvent: {}
+[24.339047] (-) TimerEvent: {}
+[24.376552] (traffic_light_interfaces) StdoutLine: {'line': b'[  6%] \x1b[32mBuilding C object CMakeFiles/traffic_light_interfaces__rosidl_generator_c.dir/rosidl_generator_c/traffic_light_interfaces/msg/detail/header__functions.c.o\x1b[0m\n'}
+[24.439246] (-) TimerEvent: {}
+[24.542953] (-) TimerEvent: {}
+[24.646190] (-) TimerEvent: {}
+[24.748585] (-) TimerEvent: {}
+[24.853988] (-) TimerEvent: {}
+[24.929314] (traffic_light_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target traffic_light_interfaces__rosidl_typesupport_cpp\x1b[0m\n'}
+[24.952841] (-) TimerEvent: {}
+[25.056314] (-) TimerEvent: {}
+[25.073612] (traffic_light_interfaces) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding C object CMakeFiles/traffic_light_interfaces__rosidl_generator_c.dir/rosidl_generator_c/traffic_light_interfaces/msg/detail/b_box_center__functions.c.o\x1b[0m\n'}
+[25.157203] (-) TimerEvent: {}
+[25.259217] (-) TimerEvent: {}
+[25.365302] (-) TimerEvent: {}
+[25.471407] (-) TimerEvent: {}
+[25.573832] (-) TimerEvent: {}
+[25.581227] (traffic_light_interfaces) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/traffic_light_interfaces__rosidl_generator_c.dir/rosidl_generator_c/traffic_light_interfaces/msg/detail/b_box_centers__functions.c.o\x1b[0m\n'}
+[25.674044] (-) TimerEvent: {}
+[25.776803] (-) TimerEvent: {}
+[25.880308] (-) TimerEvent: {}
+[25.982190] (-) TimerEvent: {}
+[25.987905] (traffic_light_interfaces) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding CXX object CMakeFiles/traffic_light_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/traffic_light_interfaces/msg/header__type_support.cpp.o\x1b[0m\n'}
+[26.036755] (traffic_light_interfaces) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding C object CMakeFiles/traffic_light_interfaces__rosidl_generator_c.dir/rosidl_generator_c/traffic_light_interfaces/msg/detail/bounding_box__functions.c.o\x1b[0m\n'}
+[26.082942] (-) TimerEvent: {}
+[26.185859] (-) TimerEvent: {}
+[26.288103] (-) TimerEvent: {}
+[26.390254] (-) TimerEvent: {}
+[26.461572] (traffic_light_interfaces) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding C object CMakeFiles/traffic_light_interfaces__rosidl_generator_c.dir/rosidl_generator_c/traffic_light_interfaces/msg/detail/bounding_boxes__functions.c.o\x1b[0m\n'}
+[26.491155] (-) TimerEvent: {}
+[26.595049] (-) TimerEvent: {}
+[26.697329] (-) TimerEvent: {}
+[26.799639] (-) TimerEvent: {}
+[26.901922] (-) TimerEvent: {}
+[26.969755] (traffic_light_interfaces) StdoutLine: {'line': b'[ 15%] \x1b[32m\x1b[1mLinking C shared library libtraffic_light_interfaces__rosidl_generator_c.so\x1b[0m\n'}
+[27.004406] (-) TimerEvent: {}
+[27.114109] (-) TimerEvent: {}
+[27.216796] (-) TimerEvent: {}
+[27.319286] (-) TimerEvent: {}
+[27.430510] (-) TimerEvent: {}
+[27.510003] (traffic_light_interfaces) StdoutLine: {'line': b'[ 15%] Built target traffic_light_interfaces__rosidl_generator_c\n'}
+[27.530778] (-) TimerEvent: {}
+[27.559997] (traffic_light_interfaces) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding CXX object CMakeFiles/traffic_light_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/traffic_light_interfaces/msg/b_box_center__type_support.cpp.o\x1b[0m\n'}
+[27.632116] (-) TimerEvent: {}
+[27.740219] (-) TimerEvent: {}
+[27.842533] (-) TimerEvent: {}
+[27.946440] (-) TimerEvent: {}
+[28.062447] (-) TimerEvent: {}
+[28.209081] (-) TimerEvent: {}
+[28.316235] (-) TimerEvent: {}
+[28.419539] (-) TimerEvent: {}
+[28.522072] (-) TimerEvent: {}
+[28.554396] (traffic_light_interfaces) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding CXX object CMakeFiles/traffic_light_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/traffic_light_interfaces/msg/b_box_centers__type_support.cpp.o\x1b[0m\n'}
+[28.622193] (-) TimerEvent: {}
+[28.724568] (-) TimerEvent: {}
+[28.827797] (-) TimerEvent: {}
+[28.930767] (-) TimerEvent: {}
+[29.034211] (-) TimerEvent: {}
+[29.156312] (-) TimerEvent: {}
+[29.284434] (-) TimerEvent: {}
+[29.387275] (-) TimerEvent: {}
+[29.455935] (traffic_light_interfaces) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/traffic_light_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/traffic_light_interfaces/msg/bounding_box__type_support.cpp.o\x1b[0m\n'}
+[29.487538] (-) TimerEvent: {}
+[29.589326] (-) TimerEvent: {}
+[29.691843] (-) TimerEvent: {}
+[29.794460] (-) TimerEvent: {}
+[29.896732] (-) TimerEvent: {}
+[29.998137] (-) TimerEvent: {}
+[30.100636] (-) TimerEvent: {}
+[30.203005] (-) TimerEvent: {}
+[30.307195] (-) TimerEvent: {}
+[30.388281] (traffic_light_interfaces) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding CXX object CMakeFiles/traffic_light_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/traffic_light_interfaces/msg/bounding_boxes__type_support.cpp.o\x1b[0m\n'}
+[30.407956] (-) TimerEvent: {}
+[30.511808] (-) TimerEvent: {}
+[30.613960] (-) TimerEvent: {}
+[30.715856] (-) TimerEvent: {}
+[30.818253] (-) TimerEvent: {}
+[30.921436] (-) TimerEvent: {}
+[31.038689] (-) TimerEvent: {}
+[31.069229] (traffic_light_interfaces) StdoutLine: {'line': b'[ 23%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[31.138870] (-) TimerEvent: {}
+[31.240577] (-) TimerEvent: {}
+[31.344328] (-) TimerEvent: {}
+[31.446197] (-) TimerEvent: {}
+[31.549887] (-) TimerEvent: {}
+[31.636424] (traffic_light_interfaces) StdoutLine: {'line': b'[ 25%] \x1b[32m\x1b[1mLinking CXX shared library libtraffic_light_interfaces__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[31.649835] (-) TimerEvent: {}
+[31.752653] (-) TimerEvent: {}
+[31.855596] (-) TimerEvent: {}
+[31.957964] (-) TimerEvent: {}
+[32.060996] (-) TimerEvent: {}
+[32.163402] (-) TimerEvent: {}
+[32.228667] (traffic_light_interfaces) StdoutLine: {'line': b'[ 25%] Built target traffic_light_interfaces__rosidl_typesupport_cpp\n'}
+[32.263691] (-) TimerEvent: {}
+[32.351611] (traffic_light_interfaces) StdoutLine: {'line': b'[ 26%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[32.363855] (-) TimerEvent: {}
+[32.467102] (-) TimerEvent: {}
+[32.569017] (-) TimerEvent: {}
+[32.670886] (-) TimerEvent: {}
+[32.772712] (-) TimerEvent: {}
+[32.874764] (-) TimerEvent: {}
+[32.977186] (-) TimerEvent: {}
+[33.101637] (-) TimerEvent: {}
+[33.190010] (traffic_light_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target traffic_light_interfaces__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[33.202679] (-) TimerEvent: {}
+[33.305939] (-) TimerEvent: {}
+[33.408827] (-) TimerEvent: {}
+[33.510620] (-) TimerEvent: {}
+[33.612595] (-) TimerEvent: {}
+[33.714242] (-) TimerEvent: {}
+[33.830965] (-) TimerEvent: {}
+[33.932620] (-) TimerEvent: {}
+[34.034548] (-) TimerEvent: {}
+[34.138769] (-) TimerEvent: {}
+[34.241910] (-) TimerEvent: {}
+[34.345036] (-) TimerEvent: {}
+[34.446701] (-) TimerEvent: {}
+[34.553188] (-) TimerEvent: {}
+[34.655241] (-) TimerEvent: {}
+[34.725325] (traffic_light_interfaces) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/traffic_light_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/traffic_light_interfaces/msg/detail/dds_fastrtps/header__type_support.cpp.o\x1b[0m\n'}
+[34.755699] (-) TimerEvent: {}
+[34.813303] (traffic_light_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target traffic_light_interfaces__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[34.855939] (-) TimerEvent: {}
+[34.959520] (-) TimerEvent: {}
+[35.062836] (-) TimerEvent: {}
+[35.165874] (-) TimerEvent: {}
+[35.267983] (-) TimerEvent: {}
+[35.371281] (-) TimerEvent: {}
+[35.473234] (-) TimerEvent: {}
+[35.575551] (-) TimerEvent: {}
+[35.677221] (-) TimerEvent: {}
+[35.779318] (-) TimerEvent: {}
+[35.882783] (-) TimerEvent: {}
+[35.984948] (-) TimerEvent: {}
+[36.087696] (-) TimerEvent: {}
+[36.189227] (-) TimerEvent: {}
+[36.291705] (-) TimerEvent: {}
+[36.399855] (-) TimerEvent: {}
+[36.418060] (traffic_light_interfaces) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding C object CMakeFiles/traffic_light_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/traffic_light_interfaces/msg/detail/header__type_support.c.o\x1b[0m\n'}
+[36.500082] (-) TimerEvent: {}
+[36.606111] (-) TimerEvent: {}
+[36.707770] (-) TimerEvent: {}
+[36.809566] (-) TimerEvent: {}
+[36.842352] (traffic_light_interfaces) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding C object CMakeFiles/traffic_light_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/traffic_light_interfaces/msg/detail/b_box_center__type_support.c.o\x1b[0m\n'}
+[36.909861] (-) TimerEvent: {}
+[37.013129] (-) TimerEvent: {}
+[37.115387] (-) TimerEvent: {}
+[37.217514] (-) TimerEvent: {}
+[37.291807] (traffic_light_interfaces) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding C object CMakeFiles/traffic_light_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/traffic_light_interfaces/msg/detail/b_box_centers__type_support.c.o\x1b[0m\n'}
+[37.317880] (-) TimerEvent: {}
+[37.421326] (-) TimerEvent: {}
+[37.523778] (-) TimerEvent: {}
+[37.625688] (-) TimerEvent: {}
+[37.727848] (-) TimerEvent: {}
+[37.745573] (traffic_light_interfaces) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding C object CMakeFiles/traffic_light_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/traffic_light_interfaces/msg/detail/bounding_box__type_support.c.o\x1b[0m\n'}
+[37.833128] (-) TimerEvent: {}
+[37.936844] (-) TimerEvent: {}
+[38.013626] (traffic_light_interfaces) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/traffic_light_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/traffic_light_interfaces/msg/detail/dds_fastrtps/b_box_center__type_support.cpp.o\x1b[0m\n'}
+[38.037269] (-) TimerEvent: {}
+[38.150655] (-) TimerEvent: {}
+[38.254776] (-) TimerEvent: {}
+[38.357407] (-) TimerEvent: {}
+[38.398947] (traffic_light_interfaces) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding C object CMakeFiles/traffic_light_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/traffic_light_interfaces/msg/detail/bounding_boxes__type_support.c.o\x1b[0m\n'}
+[38.456912] (-) TimerEvent: {}
+[38.559972] (-) TimerEvent: {}
+[38.663956] (-) TimerEvent: {}
+[38.765345] (-) TimerEvent: {}
+[38.868241] (-) TimerEvent: {}
+[38.925364] (traffic_light_interfaces) StdoutLine: {'line': b'[ 39%] \x1b[32m\x1b[1mLinking C shared library libtraffic_light_interfaces__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[38.968754] (-) TimerEvent: {}
+[39.071939] (-) TimerEvent: {}
+[39.174147] (-) TimerEvent: {}
+[39.277329] (-) TimerEvent: {}
+[39.379219] (-) TimerEvent: {}
+[39.458931] (traffic_light_interfaces) StdoutLine: {'line': b'[ 39%] Built target traffic_light_interfaces__rosidl_typesupport_introspection_c\n'}
+[39.479776] (-) TimerEvent: {}
+[39.559560] (traffic_light_interfaces) StdoutLine: {'line': b'[ 41%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[39.580070] (-) TimerEvent: {}
+[39.681961] (-) TimerEvent: {}
+[39.784503] (-) TimerEvent: {}
+[39.887635] (-) TimerEvent: {}
+[39.990223] (-) TimerEvent: {}
+[40.092539] (-) TimerEvent: {}
+[40.215361] (-) TimerEvent: {}
+[40.317670] (-) TimerEvent: {}
+[40.420153] (-) TimerEvent: {}
+[40.475424] (traffic_light_interfaces) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/traffic_light_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/traffic_light_interfaces/msg/detail/dds_fastrtps/b_box_centers__type_support.cpp.o\x1b[0m\n'}
+[40.520407] (-) TimerEvent: {}
+[40.623951] (-) TimerEvent: {}
+[40.726575] (-) TimerEvent: {}
+[40.829064] (-) TimerEvent: {}
+[40.939706] (-) TimerEvent: {}
+[41.045803] (-) TimerEvent: {}
+[41.084475] (traffic_light_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target traffic_light_interfaces__rosidl_typesupport_c\x1b[0m\n'}
+[41.145953] (-) TimerEvent: {}
+[41.248144] (-) TimerEvent: {}
+[41.350215] (-) TimerEvent: {}
+[41.453384] (-) TimerEvent: {}
+[41.554985] (-) TimerEvent: {}
+[41.656841] (-) TimerEvent: {}
+[41.758892] (-) TimerEvent: {}
+[41.861646] (-) TimerEvent: {}
+[41.937626] (traffic_light_interfaces) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding CXX object CMakeFiles/traffic_light_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/traffic_light_interfaces/msg/header__type_support.cpp.o\x1b[0m\n'}
+[41.961840] (-) TimerEvent: {}
+[42.064308] (-) TimerEvent: {}
+[42.166946] (-) TimerEvent: {}
+[42.226694] (traffic_light_interfaces) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object CMakeFiles/traffic_light_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/traffic_light_interfaces/msg/b_box_center__type_support.cpp.o\x1b[0m\n'}
+[42.267464] (-) TimerEvent: {}
+[42.370221] (-) TimerEvent: {}
+[42.471699] (-) TimerEvent: {}
+[42.502636] (traffic_light_interfaces) StdoutLine: {'line': b'[ 47%] \x1b[32mBuilding CXX object CMakeFiles/traffic_light_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/traffic_light_interfaces/msg/b_box_centers__type_support.cpp.o\x1b[0m\n'}
+[42.572803] (-) TimerEvent: {}
+[42.676650] (-) TimerEvent: {}
+[42.779128] (-) TimerEvent: {}
+[42.804886] (traffic_light_interfaces) StdoutLine: {'line': b'[ 49%] \x1b[32mBuilding CXX object CMakeFiles/traffic_light_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/traffic_light_interfaces/msg/bounding_box__type_support.cpp.o\x1b[0m\n'}
+[42.879319] (-) TimerEvent: {}
+[42.982014] (-) TimerEvent: {}
+[43.087379] (-) TimerEvent: {}
+[43.192534] (-) TimerEvent: {}
+[43.255861] (traffic_light_interfaces) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/traffic_light_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/traffic_light_interfaces/msg/bounding_boxes__type_support.cpp.o\x1b[0m\n'}
+[43.292536] (-) TimerEvent: {}
+[43.394113] (-) TimerEvent: {}
+[43.500998] (-) TimerEvent: {}
+[43.602799] (-) TimerEvent: {}
+[43.675658] (traffic_light_interfaces) StdoutLine: {'line': b'[ 52%] \x1b[32m\x1b[1mLinking CXX shared library libtraffic_light_interfaces__rosidl_typesupport_c.so\x1b[0m\n'}
+[43.702977] (-) TimerEvent: {}
+[43.772928] (traffic_light_interfaces) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding CXX object CMakeFiles/traffic_light_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/traffic_light_interfaces/msg/detail/dds_fastrtps/bounding_box__type_support.cpp.o\x1b[0m\n'}
+[43.803221] (-) TimerEvent: {}
+[43.905678] (-) TimerEvent: {}
+[44.007675] (-) TimerEvent: {}
+[44.109372] (-) TimerEvent: {}
+[44.210860] (-) TimerEvent: {}
+[44.312499] (-) TimerEvent: {}
+[44.392302] (traffic_light_interfaces) StdoutLine: {'line': b'[ 53%] Built target traffic_light_interfaces__rosidl_typesupport_c\n'}
+[44.412743] (-) TimerEvent: {}
+[44.492944] (traffic_light_interfaces) StdoutLine: {'line': b'[ 55%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[44.512919] (-) TimerEvent: {}
+[44.615192] (-) TimerEvent: {}
+[44.717628] (-) TimerEvent: {}
+[44.819316] (-) TimerEvent: {}
+[44.921213] (-) TimerEvent: {}
+[45.023344] (-) TimerEvent: {}
+[45.125986] (-) TimerEvent: {}
+[45.235579] (-) TimerEvent: {}
+[45.338519] (-) TimerEvent: {}
+[45.442822] (-) TimerEvent: {}
+[45.545162] (-) TimerEvent: {}
+[45.647739] (-) TimerEvent: {}
+[45.750035] (-) TimerEvent: {}
+[45.853274] (-) TimerEvent: {}
+[45.956648] (-) TimerEvent: {}
+[45.981778] (traffic_light_interfaces) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding CXX object CMakeFiles/traffic_light_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/traffic_light_interfaces/msg/detail/dds_fastrtps/bounding_boxes__type_support.cpp.o\x1b[0m\n'}
+[46.056852] (-) TimerEvent: {}
+[46.159149] (-) TimerEvent: {}
+[46.261684] (-) TimerEvent: {}
+[46.365135] (-) TimerEvent: {}
+[46.466878] (-) TimerEvent: {}
+[46.550798] (traffic_light_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target traffic_light_interfaces__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[46.567289] (-) TimerEvent: {}
+[46.670008] (-) TimerEvent: {}
+[46.772293] (-) TimerEvent: {}
+[46.874699] (-) TimerEvent: {}
+[46.978124] (-) TimerEvent: {}
+[47.081876] (-) TimerEvent: {}
+[47.188795] (-) TimerEvent: {}
+[47.290799] (-) TimerEvent: {}
+[47.392957] (-) TimerEvent: {}
+[47.494685] (-) TimerEvent: {}
+[47.596336] (-) TimerEvent: {}
+[47.661766] (traffic_light_interfaces) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding CXX object CMakeFiles/traffic_light_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/traffic_light_interfaces/msg/detail/header__type_support.cpp.o\x1b[0m\n'}
+[47.696560] (-) TimerEvent: {}
+[47.798587] (-) TimerEvent: {}
+[47.905294] (-) TimerEvent: {}
+[48.007036] (-) TimerEvent: {}
+[48.109567] (-) TimerEvent: {}
+[48.213863] (-) TimerEvent: {}
+[48.316913] (-) TimerEvent: {}
+[48.419631] (-) TimerEvent: {}
+[48.522827] (-) TimerEvent: {}
+[48.625585] (-) TimerEvent: {}
+[48.728395] (-) TimerEvent: {}
+[48.831247] (-) TimerEvent: {}
+[48.934827] (-) TimerEvent: {}
+[49.031668] (traffic_light_interfaces) StdoutLine: {'line': b'[ 60%] \x1b[32m\x1b[1mLinking CXX shared library libtraffic_light_interfaces__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[49.038908] (-) TimerEvent: {}
+[49.140579] (-) TimerEvent: {}
+[49.244886] (-) TimerEvent: {}
+[49.349052] (-) TimerEvent: {}
+[49.408924] (traffic_light_interfaces) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object CMakeFiles/traffic_light_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/traffic_light_interfaces/msg/detail/b_box_center__type_support.cpp.o\x1b[0m\n'}
+[49.449287] (-) TimerEvent: {}
+[49.552547] (-) TimerEvent: {}
+[49.657225] (-) TimerEvent: {}
+[49.760910] (-) TimerEvent: {}
+[49.863768] (-) TimerEvent: {}
+[49.966408] (-) TimerEvent: {}
+[50.069190] (-) TimerEvent: {}
+[50.177960] (-) TimerEvent: {}
+[50.279842] (-) TimerEvent: {}
+[50.382292] (-) TimerEvent: {}
+[50.484324] (-) TimerEvent: {}
+[50.571299] (traffic_light_interfaces) StdoutLine: {'line': b'[ 61%] Built target traffic_light_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[50.584790] (-) TimerEvent: {}
+[50.665635] (traffic_light_interfaces) StdoutLine: {'line': b'[ 63%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[50.684983] (-) TimerEvent: {}
+[50.787753] (-) TimerEvent: {}
+[50.890124] (-) TimerEvent: {}
+[50.992515] (-) TimerEvent: {}
+[51.094534] (-) TimerEvent: {}
+[51.197001] (-) TimerEvent: {}
+[51.242420] (traffic_light_interfaces) StdoutLine: {'line': b'[ 65%] \x1b[32mBuilding CXX object CMakeFiles/traffic_light_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/traffic_light_interfaces/msg/detail/b_box_centers__type_support.cpp.o\x1b[0m\n'}
+[51.297545] (-) TimerEvent: {}
+[51.402757] (-) TimerEvent: {}
+[51.504982] (-) TimerEvent: {}
+[51.610680] (-) TimerEvent: {}
+[51.713736] (-) TimerEvent: {}
+[51.815279] (-) TimerEvent: {}
+[51.918394] (-) TimerEvent: {}
+[52.020294] (-) TimerEvent: {}
+[52.127839] (-) TimerEvent: {}
+[52.231738] (-) TimerEvent: {}
+[52.334056] (-) TimerEvent: {}
+[52.436768] (-) TimerEvent: {}
+[52.540098] (-) TimerEvent: {}
+[52.641979] (-) TimerEvent: {}
+[52.744060] (-) TimerEvent: {}
+[52.748986] (traffic_light_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target traffic_light_interfaces__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[52.844761] (-) TimerEvent: {}
+[52.947284] (-) TimerEvent: {}
+[53.053686] (-) TimerEvent: {}
+[53.156272] (-) TimerEvent: {}
+[53.259735] (-) TimerEvent: {}
+[53.340376] (traffic_light_interfaces) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/traffic_light_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/traffic_light_interfaces/msg/detail/bounding_box__type_support.cpp.o\x1b[0m\n'}
+[53.363732] (-) TimerEvent: {}
+[53.468955] (-) TimerEvent: {}
+[53.571365] (-) TimerEvent: {}
+[53.675512] (-) TimerEvent: {}
+[53.777566] (-) TimerEvent: {}
+[53.888034] (-) TimerEvent: {}
+[53.991372] (-) TimerEvent: {}
+[54.093573] (-) TimerEvent: {}
+[54.195770] (-) TimerEvent: {}
+[54.297761] (-) TimerEvent: {}
+[54.399947] (-) TimerEvent: {}
+[54.502245] (-) TimerEvent: {}
+[54.605464] (-) TimerEvent: {}
+[54.713940] (-) TimerEvent: {}
+[54.815673] (-) TimerEvent: {}
+[54.919772] (-) TimerEvent: {}
+[54.954673] (traffic_light_interfaces) StdoutLine: {'line': b'[ 68%] \x1b[32mBuilding CXX object CMakeFiles/traffic_light_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/traffic_light_interfaces/msg/detail/header__type_support_c.cpp.o\x1b[0m\n'}
+[55.020083] (-) TimerEvent: {}
+[55.122416] (-) TimerEvent: {}
+[55.226132] (-) TimerEvent: {}
+[55.328326] (-) TimerEvent: {}
+[55.432132] (-) TimerEvent: {}
+[55.536762] (-) TimerEvent: {}
+[55.639530] (-) TimerEvent: {}
+[55.742304] (-) TimerEvent: {}
+[55.766401] (traffic_light_interfaces) StdoutLine: {'line': b'[ 69%] \x1b[32mBuilding CXX object CMakeFiles/traffic_light_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/traffic_light_interfaces/msg/detail/bounding_boxes__type_support.cpp.o\x1b[0m\n'}
+[55.842636] (-) TimerEvent: {}
+[55.945003] (-) TimerEvent: {}
+[56.047718] (-) TimerEvent: {}
+[56.150052] (-) TimerEvent: {}
+[56.254316] (-) TimerEvent: {}
+[56.357798] (-) TimerEvent: {}
+[56.459878] (-) TimerEvent: {}
+[56.562006] (-) TimerEvent: {}
+[56.664334] (-) TimerEvent: {}
+[56.766514] (-) TimerEvent: {}
+[56.873757] (-) TimerEvent: {}
+[56.975763] (-) TimerEvent: {}
+[57.077401] (-) TimerEvent: {}
+[57.179659] (-) TimerEvent: {}
+[57.282615] (-) TimerEvent: {}
+[57.385085] (-) TimerEvent: {}
+[57.413939] (traffic_light_interfaces) StdoutLine: {'line': b'[ 71%] \x1b[32m\x1b[1mLinking CXX shared library libtraffic_light_interfaces__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[57.485298] (-) TimerEvent: {}
+[57.587544] (-) TimerEvent: {}
+[57.693017] (-) TimerEvent: {}
+[57.734293] (traffic_light_interfaces) StdoutLine: {'line': b'[ 73%] \x1b[32mBuilding CXX object CMakeFiles/traffic_light_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/traffic_light_interfaces/msg/detail/b_box_center__type_support_c.cpp.o\x1b[0m\n'}
+[57.794459] (-) TimerEvent: {}
+[57.898269] (-) TimerEvent: {}
+[58.001137] (-) TimerEvent: {}
+[58.134727] (-) TimerEvent: {}
+[58.242949] (-) TimerEvent: {}
+[58.344856] (-) TimerEvent: {}
+[58.446573] (-) TimerEvent: {}
+[58.549127] (-) TimerEvent: {}
+[58.651572] (-) TimerEvent: {}
+[58.754199] (-) TimerEvent: {}
+[58.859144] (-) TimerEvent: {}
+[58.961205] (-) TimerEvent: {}
+[59.052102] (traffic_light_interfaces) StdoutLine: {'line': b'[ 73%] Built target traffic_light_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[59.063141] (-) TimerEvent: {}
+[59.128002] (traffic_light_interfaces) StdoutLine: {'line': b'[ 74%] \x1b[32mBuilding CXX object CMakeFiles/traffic_light_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/traffic_light_interfaces/msg/detail/b_box_centers__type_support_c.cpp.o\x1b[0m\n'}
+[59.163766] (-) TimerEvent: {}
+[59.265967] (-) TimerEvent: {}
+[60.375210] (-) TimerEvent: {}
+[60.484818] (-) TimerEvent: {}
+[60.592036] (-) TimerEvent: {}
+[60.700952] (-) TimerEvent: {}
+[60.804329] (-) TimerEvent: {}
+[60.906761] (-) TimerEvent: {}
+[61.009090] (-) TimerEvent: {}
+[61.111539] (-) TimerEvent: {}
+[61.214940] (-) TimerEvent: {}
+[61.317321] (-) TimerEvent: {}
+[61.420367] (-) TimerEvent: {}
+[61.523895] (-) TimerEvent: {}
+[61.626598] (-) TimerEvent: {}
+[61.729264] (-) TimerEvent: {}
+[61.831382] (-) TimerEvent: {}
+[61.933575] (-) TimerEvent: {}
+[62.036216] (-) TimerEvent: {}
+[62.138379] (-) TimerEvent: {}
+[62.240731] (-) TimerEvent: {}
+[62.342726] (-) TimerEvent: {}
+[62.444528] (-) TimerEvent: {}
+[62.546531] (-) TimerEvent: {}
+[62.566371] (traffic_light_interfaces) StdoutLine: {'line': b'[ 76%] \x1b[32mBuilding CXX object CMakeFiles/traffic_light_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/traffic_light_interfaces/msg/detail/bounding_box__type_support_c.cpp.o\x1b[0m\n'}
+[62.647175] (-) TimerEvent: {}
+[62.749010] (-) TimerEvent: {}
+[62.851384] (-) TimerEvent: {}
+[62.953063] (-) TimerEvent: {}
+[63.063724] (-) TimerEvent: {}
+[63.171179] (-) TimerEvent: {}
+[63.272625] (-) TimerEvent: {}
+[63.374081] (-) TimerEvent: {}
+[63.475615] (-) TimerEvent: {}
+[63.577170] (-) TimerEvent: {}
+[63.680425] (-) TimerEvent: {}
+[63.783914] (-) TimerEvent: {}
+[63.885564] (-) TimerEvent: {}
+[63.987660] (-) TimerEvent: {}
+[64.089873] (-) TimerEvent: {}
+[64.191594] (-) TimerEvent: {}
+[64.293550] (-) TimerEvent: {}
+[64.396885] (-) TimerEvent: {}
+[64.498962] (-) TimerEvent: {}
+[64.537811] (traffic_light_interfaces) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding CXX object CMakeFiles/traffic_light_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/traffic_light_interfaces/msg/detail/bounding_boxes__type_support_c.cpp.o\x1b[0m\n'}
+[64.599186] (-) TimerEvent: {}
+[64.701167] (-) TimerEvent: {}
+[64.803050] (-) TimerEvent: {}
+[64.904636] (-) TimerEvent: {}
+[65.006267] (-) TimerEvent: {}
+[65.108236] (-) TimerEvent: {}
+[65.213530] (-) TimerEvent: {}
+[65.315508] (-) TimerEvent: {}
+[65.417026] (-) TimerEvent: {}
+[65.519190] (-) TimerEvent: {}
+[65.620943] (-) TimerEvent: {}
+[65.724029] (-) TimerEvent: {}
+[65.825801] (-) TimerEvent: {}
+[65.927791] (-) TimerEvent: {}
+[66.030776] (-) TimerEvent: {}
+[66.133813] (-) TimerEvent: {}
+[66.236041] (-) TimerEvent: {}
+[66.338015] (-) TimerEvent: {}
+[66.443133] (traffic_light_interfaces) StdoutLine: {'line': b'[ 79%] \x1b[32m\x1b[1mLinking CXX shared library libtraffic_light_interfaces__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[66.448865] (-) TimerEvent: {}
+[66.550698] (-) TimerEvent: {}
+[66.652781] (-) TimerEvent: {}
+[66.755136] (-) TimerEvent: {}
+[66.857016] (-) TimerEvent: {}
+[66.959619] (-) TimerEvent: {}
+[67.061429] (-) TimerEvent: {}
+[67.097928] (traffic_light_interfaces) StdoutLine: {'line': b'[ 79%] Built target traffic_light_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[67.159284] (traffic_light_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target traffic_light_interfaces\x1b[0m\n'}
+[67.165816] (-) TimerEvent: {}
+[67.236831] (traffic_light_interfaces) StdoutLine: {'line': b'[ 79%] Built target traffic_light_interfaces\n'}
+[67.266047] (-) TimerEvent: {}
+[67.299251] (traffic_light_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target traffic_light_interfaces__py\x1b[0m\n'}
+[67.366258] (-) TimerEvent: {}
+[67.405598] (traffic_light_interfaces) StdoutLine: {'line': b'[ 80%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[67.466805] (-) TimerEvent: {}
+[67.570324] (-) TimerEvent: {}
+[67.672601] (-) TimerEvent: {}
+[67.775018] (-) TimerEvent: {}
+[67.877158] (-) TimerEvent: {}
+[67.979671] (-) TimerEvent: {}
+[68.084273] (-) TimerEvent: {}
+[68.189129] (-) TimerEvent: {}
+[68.294583] (-) TimerEvent: {}
+[68.396625] (-) TimerEvent: {}
+[68.498648] (-) TimerEvent: {}
+[68.600161] (-) TimerEvent: {}
+[68.701964] (-) TimerEvent: {}
+[68.803587] (-) TimerEvent: {}
+[68.905516] (-) TimerEvent: {}
+[69.007445] (-) TimerEvent: {}
+[69.109729] (-) TimerEvent: {}
+[69.211754] (-) TimerEvent: {}
+[69.313826] (-) TimerEvent: {}
+[69.415502] (-) TimerEvent: {}
+[69.516926] (-) TimerEvent: {}
+[69.618907] (-) TimerEvent: {}
+[69.720537] (-) TimerEvent: {}
+[69.822218] (-) TimerEvent: {}
+[69.884576] (traffic_light_interfaces) StdoutLine: {'line': b'[ 80%] Built target traffic_light_interfaces__py\n'}
+[69.922417] (-) TimerEvent: {}
+[69.941869] (traffic_light_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target traffic_light_interfaces__python\x1b[0m\n'}
+[70.022573] (-) TimerEvent: {}
+[70.124414] (-) TimerEvent: {}
+[70.247426] (-) TimerEvent: {}
+[70.349626] (-) TimerEvent: {}
+[70.452397] (-) TimerEvent: {}
+[70.554697] (-) TimerEvent: {}
+[70.656528] (-) TimerEvent: {}
+[70.760730] (-) TimerEvent: {}
+[70.862624] (-) TimerEvent: {}
+[70.965529] (-) TimerEvent: {}
+[71.067136] (-) TimerEvent: {}
+[71.170167] (-) TimerEvent: {}
+[71.271571] (-) TimerEvent: {}
+[71.373369] (-) TimerEvent: {}
+[71.475126] (-) TimerEvent: {}
+[71.577097] (-) TimerEvent: {}
+[71.680202] (-) TimerEvent: {}
+[71.821926] (-) TimerEvent: {}
+[71.925066] (-) TimerEvent: {}
+[72.027422] (-) TimerEvent: {}
+[72.130736] (-) TimerEvent: {}
+[72.231958] (-) TimerEvent: {}
+[72.333761] (-) TimerEvent: {}
+[72.435555] (-) TimerEvent: {}
+[72.537370] (-) TimerEvent: {}
+[72.639050] (-) TimerEvent: {}
+[72.740937] (-) TimerEvent: {}
+[72.842559] (-) TimerEvent: {}
+[72.944245] (-) TimerEvent: {}
+[73.048837] (-) TimerEvent: {}
+[73.161072] (-) TimerEvent: {}
+[73.264316] (-) TimerEvent: {}
+[73.365572] (-) TimerEvent: {}
+[73.468194] (-) TimerEvent: {}
+[73.570133] (-) TimerEvent: {}
+[73.671794] (-) TimerEvent: {}
+[73.685354] (traffic_light_interfaces) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/traffic_light_interfaces__python.dir/rosidl_generator_py/traffic_light_interfaces/msg/_header_s.c.o\x1b[0m\n'}
+[73.772048] (-) TimerEvent: {}
+[73.874258] (-) TimerEvent: {}
+[73.975629] (-) TimerEvent: {}
+[74.077516] (-) TimerEvent: {}
+[74.179576] (-) TimerEvent: {}
+[74.281046] (-) TimerEvent: {}
+[74.383250] (-) TimerEvent: {}
+[74.484964] (-) TimerEvent: {}
+[74.587028] (-) TimerEvent: {}
+[74.621064] (traffic_light_interfaces) StdoutLine: {'line': b'[ 84%] \x1b[32mBuilding C object CMakeFiles/traffic_light_interfaces__python.dir/rosidl_generator_py/traffic_light_interfaces/msg/_b_box_center_s.c.o\x1b[0m\n'}
+[74.687636] (-) TimerEvent: {}
+[74.790054] (-) TimerEvent: {}
+[74.892628] (-) TimerEvent: {}
+[74.994392] (-) TimerEvent: {}
+[75.095939] (-) TimerEvent: {}
+[75.198140] (-) TimerEvent: {}
+[75.300323] (-) TimerEvent: {}
+[75.401813] (-) TimerEvent: {}
+[75.422602] (traffic_light_interfaces) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/traffic_light_interfaces__python.dir/rosidl_generator_py/traffic_light_interfaces/msg/_b_box_centers_s.c.o\x1b[0m\n'}
+[75.502123] (-) TimerEvent: {}
+[75.603868] (-) TimerEvent: {}
+[75.706176] (-) TimerEvent: {}
+[75.810595] (-) TimerEvent: {}
+[75.913524] (-) TimerEvent: {}
+[76.015795] (-) TimerEvent: {}
+[76.117278] (-) TimerEvent: {}
+[76.219340] (-) TimerEvent: {}
+[76.325180] (-) TimerEvent: {}
+[76.342702] (traffic_light_interfaces) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/traffic_light_interfaces__python.dir/rosidl_generator_py/traffic_light_interfaces/msg/_bounding_boxes_s.c.o\x1b[0m\n'}
+[76.354227] (traffic_light_interfaces) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding C object CMakeFiles/traffic_light_interfaces__python.dir/rosidl_generator_py/traffic_light_interfaces/msg/_bounding_box_s.c.o\x1b[0m\n'}
+[76.425738] (-) TimerEvent: {}
+[76.529132] (-) TimerEvent: {}
+[76.630947] (-) TimerEvent: {}
+[76.734281] (-) TimerEvent: {}
+[76.836327] (-) TimerEvent: {}
+[76.939402] (-) TimerEvent: {}
+[77.041443] (-) TimerEvent: {}
+[77.146286] (-) TimerEvent: {}
+[77.252800] (-) TimerEvent: {}
+[77.355578] (-) TimerEvent: {}
+[77.458585] (-) TimerEvent: {}
+[77.560563] (-) TimerEvent: {}
+[77.614763] (traffic_light_interfaces) StdoutLine: {'line': b'[ 90%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/traffic_light_interfaces/libtraffic_light_interfaces__python.so\x1b[0m\n'}
+[77.660550] (-) TimerEvent: {}
+[77.762798] (-) TimerEvent: {}
+[77.865997] (-) TimerEvent: {}
+[77.968057] (-) TimerEvent: {}
+[78.072947] (-) TimerEvent: {}
+[78.078318] (traffic_light_interfaces) StdoutLine: {'line': b'[ 90%] Built target traffic_light_interfaces__python\n'}
+[78.173283] (-) TimerEvent: {}
+[78.226344] (traffic_light_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target traffic_light_interfaces__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[78.237885] (traffic_light_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target traffic_light_interfaces__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[78.273758] (-) TimerEvent: {}
+[78.376378] (-) TimerEvent: {}
+[78.478370] (-) TimerEvent: {}
+[78.580140] (-) TimerEvent: {}
+[78.681921] (-) TimerEvent: {}
+[78.784109] (-) TimerEvent: {}
+[78.886567] (-) TimerEvent: {}
+[78.989280] (-) TimerEvent: {}
+[79.091204] (-) TimerEvent: {}
+[79.193588] (-) TimerEvent: {}
+[79.295627] (-) TimerEvent: {}
+[79.397748] (-) TimerEvent: {}
+[79.499889] (-) TimerEvent: {}
+[79.601496] (-) TimerEvent: {}
+[79.706871] (-) TimerEvent: {}
+[79.813116] (-) TimerEvent: {}
+[79.915845] (-) TimerEvent: {}
+[80.018444] (-) TimerEvent: {}
+[80.121378] (-) TimerEvent: {}
+[80.223607] (-) TimerEvent: {}
+[80.305442] (traffic_light_interfaces) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/traffic_light_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/traffic_light_interfaces/_traffic_light_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[80.323935] (-) TimerEvent: {}
+[80.427368] (-) TimerEvent: {}
+[80.530112] (traffic_light_interfaces) StdoutLine: {'line': b'[ 93%] \x1b[32mBuilding C object CMakeFiles/traffic_light_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/traffic_light_interfaces/_traffic_light_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[80.538558] (-) TimerEvent: {}
+[80.642581] (-) TimerEvent: {}
+[80.744257] (-) TimerEvent: {}
+[80.846099] (-) TimerEvent: {}
+[80.949495] (-) TimerEvent: {}
+[81.051449] (-) TimerEvent: {}
+[81.165578] (-) TimerEvent: {}
+[81.271196] (-) TimerEvent: {}
+[81.373629] (-) TimerEvent: {}
+[81.476412] (-) TimerEvent: {}
+[81.579171] (-) TimerEvent: {}
+[81.681428] (-) TimerEvent: {}
+[81.784657] (-) TimerEvent: {}
+[81.789283] (traffic_light_interfaces) StdoutLine: {'line': b'[ 95%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/traffic_light_interfaces/traffic_light_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[81.885070] (-) TimerEvent: {}
+[81.989608] (-) TimerEvent: {}
+[82.091997] (-) TimerEvent: {}
+[82.194044] (-) TimerEvent: {}
+[82.223057] (traffic_light_interfaces) StdoutLine: {'line': b'[ 95%] Built target traffic_light_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[82.294302] (-) TimerEvent: {}
+[82.299545] (traffic_light_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target traffic_light_interfaces__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[82.394630] (-) TimerEvent: {}
+[82.422290] (traffic_light_interfaces) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking CXX shared library rosidl_generator_py/traffic_light_interfaces/traffic_light_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[82.495865] (-) TimerEvent: {}
+[82.599663] (-) TimerEvent: {}
+[82.701862] (-) TimerEvent: {}
+[82.804433] (-) TimerEvent: {}
+[82.945848] (-) TimerEvent: {}
+[83.043535] (traffic_light_interfaces) StdoutLine: {'line': b'[ 96%] Built target traffic_light_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[83.057524] (-) TimerEvent: {}
+[83.160229] (-) TimerEvent: {}
+[83.261733] (-) TimerEvent: {}
+[83.363649] (-) TimerEvent: {}
+[83.465488] (-) TimerEvent: {}
+[83.567017] (-) TimerEvent: {}
+[83.668369] (-) TimerEvent: {}
+[83.770428] (-) TimerEvent: {}
+[83.872362] (-) TimerEvent: {}
+[83.973997] (-) TimerEvent: {}
+[84.026919] (traffic_light_interfaces) StdoutLine: {'line': b'[ 98%] \x1b[32mBuilding C object CMakeFiles/traffic_light_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/traffic_light_interfaces/_traffic_light_interfaces_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[84.074157] (-) TimerEvent: {}
+[84.176063] (-) TimerEvent: {}
+[84.278270] (-) TimerEvent: {}
+[84.380229] (-) TimerEvent: {}
+[84.482292] (-) TimerEvent: {}
+[84.584950] (-) TimerEvent: {}
+[84.686374] (-) TimerEvent: {}
+[84.787892] (-) TimerEvent: {}
+[84.865142] (traffic_light_interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/traffic_light_interfaces/traffic_light_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[84.888235] (-) TimerEvent: {}
+[84.990632] (-) TimerEvent: {}
+[85.092100] (-) TimerEvent: {}
+[85.132320] (traffic_light_interfaces) StdoutLine: {'line': b'[100%] Built target traffic_light_interfaces__rosidl_typesupport_c__pyext\n'}
+[85.192390] (-) TimerEvent: {}
+[85.294384] (-) TimerEvent: {}
+[85.396367] (traffic_light_interfaces) CommandEnded: {'returncode': 0}
+[85.412555] (-) TimerEvent: {}
+[85.515176] (-) TimerEvent: {}
+[85.618231] (-) TimerEvent: {}
+[85.701157] (traffic_light_interfaces) JobProgress: {'identifier': 'traffic_light_interfaces', 'progress': 'install'}
+[85.718629] (-) TimerEvent: {}
+[85.727741] (traffic_light_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/root/rootfs/ros2_ws/src/build/traffic_light_interfaces'], 'cwd': '/root/rootfs/ros2_ws/src/build/traffic_light_interfaces', 'env': OrderedDict([('VNCDESKTOP', '35f23200f3cc:1 (root)'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HOSTNAME', '35f23200f3cc'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/root'), ('OLDPWD', '/root/rootfs/ros2_ws'), ('ROS_PYTHON_VERSION', '3'), ('LC_CTYPE', 'C.UTF-8'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'foxy'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':1'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/root/rootfs/ros2_ws/src/build/traffic_light_interfaces'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[85.767285] (traffic_light_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[85.801885] (traffic_light_interfaces) StdoutLine: {'line': b'-- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/share/ament_index/resource_index/rosidl_interfaces/traffic_light_interfaces\n'}
+[85.819019] (-) TimerEvent: {}
+[85.839929] (traffic_light_interfaces) StdoutLine: {'line': b'-- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/include/traffic_light_interfaces\n'}
+[85.870780] (traffic_light_interfaces) StdoutLine: {'line': b'-- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/include/traffic_light_interfaces/msg\n'}
+[85.896505] (traffic_light_interfaces) StdoutLine: {'line': b'-- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/include/traffic_light_interfaces/msg/b_box_center.h\n'}
+[85.919219] (-) TimerEvent: {}
+[85.930136] (traffic_light_interfaces) StdoutLine: {'line': b'-- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/include/traffic_light_interfaces/msg/b_box_centers.h\n'}
+[85.997528] (traffic_light_interfaces) StdoutLine: {'line': b'-- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/include/traffic_light_interfaces/msg/bounding_box.h\n'}
+[86.019333] (-) TimerEvent: {}
+[86.055743] (traffic_light_interfaces) StdoutLine: {'line': b'-- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/include/traffic_light_interfaces/msg/bounding_boxes.h\n'}
+[86.119635] (-) TimerEvent: {}
+[86.123203] (traffic_light_interfaces) StdoutLine: {'line': b'-- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/include/traffic_light_interfaces/msg/detail\n'}
+[86.146654] (traffic_light_interfaces) StdoutLine: {'line': b'-- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/include/traffic_light_interfaces/msg/detail/b_box_center__functions.c\n'}
+[86.194623] (traffic_light_interfaces) StdoutLine: {'line': b'-- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/include/traffic_light_interfaces/msg/detail/b_box_center__functions.h\n'}
+[86.219963] (-) TimerEvent: {}
+[86.228987] (traffic_light_interfaces) StdoutLine: {'line': b'-- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/include/traffic_light_interfaces/msg/detail/b_box_center__struct.h\n'}
+[86.264018] (traffic_light_interfaces) StdoutLine: {'line': b'-- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/include/traffic_light_interfaces/msg/detail/b_box_center__type_support.h\n'}
+[86.294076] (traffic_light_interfaces) StdoutLine: {'line': b'-- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/include/traffic_light_interfaces/msg/detail/b_box_centers__functions.c\n'}
+[86.320331] (-) TimerEvent: {}
+[86.327918] (traffic_light_interfaces) StdoutLine: {'line': b'-- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/include/traffic_light_interfaces/msg/detail/b_box_centers__functions.h\n'}
+[86.366631] (traffic_light_interfaces) StdoutLine: {'line': b'-- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/include/traffic_light_interfaces/msg/detail/b_box_centers__struct.h\n'}
+[86.400512] (traffic_light_interfaces) StdoutLine: {'line': b'-- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/include/traffic_light_interfaces/msg/detail/b_box_centers__type_support.h\n'}
+[86.420664] (-) TimerEvent: {}
+[86.440936] (traffic_light_interfaces) StdoutLine: {'line': b'-- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/include/traffic_light_interfaces/msg/detail/bounding_box__functions.c\n'}
+[86.474950] (traffic_light_interfaces) StdoutLine: {'line': b'-- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/include/traffic_light_interfaces/msg/detail/bounding_box__functions.h\n'}
+[86.513515] (traffic_light_interfaces) StdoutLine: {'line': b'-- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/include/traffic_light_interfaces/msg/detail/bounding_box__struct.h\n'}
+[86.521006] (-) TimerEvent: {}
+[86.540082] (traffic_light_interfaces) StdoutLine: {'line': b'-- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/include/traffic_light_interfaces/msg/detail/bounding_box__type_support.h\n'}
+[86.573651] (traffic_light_interfaces) StdoutLine: {'line': b'-- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/include/traffic_light_interfaces/msg/detail/bounding_boxes__functions.c\n'}
+[86.615044] (traffic_light_interfaces) StdoutLine: {'line': b'-- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/include/traffic_light_interfaces/msg/detail/bounding_boxes__functions.h\n'}
+[86.623150] (-) TimerEvent: {}
+[86.650065] (traffic_light_interfaces) StdoutLine: {'line': b'-- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/include/traffic_light_interfaces/msg/detail/bounding_boxes__struct.h\n'}
+[86.688437] (traffic_light_interfaces) StdoutLine: {'line': b'-- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/include/traffic_light_interfaces/msg/detail/bounding_boxes__type_support.h\n'}
+[86.723777] (-) TimerEvent: {}
+[86.738323] (traffic_light_interfaces) StdoutLine: {'line': b'-- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/include/traffic_light_interfaces/msg/detail/header__functions.c\n'}
+[86.799409] (traffic_light_interfaces) StdoutLine: {'line': b'-- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/include/traffic_light_interfaces/msg/detail/header__functions.h\n'}
+[86.824368] (-) TimerEvent: {}
+[86.853141] (traffic_light_interfaces) StdoutLine: {'line': b'-- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/include/traffic_light_interfaces/msg/detail/header__struct.h\n'}
+[86.898032] (traffic_light_interfaces) StdoutLine: {'line': b'-- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/include/traffic_light_interfaces/msg/detail/header__type_support.h\n'}
+[86.924726] (-) TimerEvent: {}
+[86.942477] (traffic_light_interfaces) StdoutLine: {'line': b'-- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/include/traffic_light_interfaces/msg/header.h\n'}
+[86.995091] (traffic_light_interfaces) StdoutLine: {'line': b'-- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/include/traffic_light_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[87.025411] (-) TimerEvent: {}
+[87.059733] (traffic_light_interfaces) StdoutLine: {'line': b'-- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/share/traffic_light_interfaces/environment/library_path.sh\n'}
+[87.091737] (traffic_light_interfaces) StdoutLine: {'line': b'-- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/share/traffic_light_interfaces/environment/library_path.dsv\n'}
+[87.125608] (-) TimerEvent: {}
+[87.130202] (traffic_light_interfaces) StdoutLine: {'line': b'-- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/lib/libtraffic_light_interfaces__rosidl_generator_c.so\n'}
+[87.180377] (traffic_light_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/root/rootfs/ros2_ws/src/install/traffic_light_interfaces/lib/libtraffic_light_interfaces__rosidl_generator_c.so" to ""\n'}
+[87.197701] (traffic_light_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/include/traffic_light_interfaces\n'}
+[87.205672] (traffic_light_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/include/traffic_light_interfaces/msg\n'}
+[87.215537] (traffic_light_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/include/traffic_light_interfaces/msg/detail\n'}
+[87.231624] (-) TimerEvent: {}
+[87.237145] (traffic_light_interfaces) StdoutLine: {'line': b'-- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/include/traffic_light_interfaces/msg/detail/b_box_center__rosidl_typesupport_fastrtps_c.h\n'}
+[87.293126] (traffic_light_interfaces) StdoutLine: {'line': b'-- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/include/traffic_light_interfaces/msg/detail/b_box_centers__rosidl_typesupport_fastrtps_c.h\n'}
+[87.331828] (-) TimerEvent: {}
+[87.344326] (traffic_light_interfaces) StdoutLine: {'line': b'-- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/include/traffic_light_interfaces/msg/detail/bounding_box__rosidl_typesupport_fastrtps_c.h\n'}
+[87.383507] (traffic_light_interfaces) StdoutLine: {'line': b'-- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/include/traffic_light_interfaces/msg/detail/bounding_boxes__rosidl_typesupport_fastrtps_c.h\n'}
+[87.417844] (traffic_light_interfaces) StdoutLine: {'line': b'-- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/include/traffic_light_interfaces/msg/detail/header__rosidl_typesupport_fastrtps_c.h\n'}
+[87.432031] (-) TimerEvent: {}
+[87.452633] (traffic_light_interfaces) StdoutLine: {'line': b'-- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/include/traffic_light_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[87.490540] (traffic_light_interfaces) StdoutLine: {'line': b'-- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/lib/libtraffic_light_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[87.532276] (-) TimerEvent: {}
+[87.534387] (traffic_light_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/root/rootfs/ros2_ws/src/install/traffic_light_interfaces/lib/libtraffic_light_interfaces__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[87.542685] (traffic_light_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/include/traffic_light_interfaces\n'}
+[87.550764] (traffic_light_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/include/traffic_light_interfaces/msg\n'}
+[87.558518] (traffic_light_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/include/traffic_light_interfaces/msg/detail\n'}
+[87.568135] (traffic_light_interfaces) StdoutLine: {'line': b'-- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/include/traffic_light_interfaces/msg/detail/b_box_center__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[87.614142] (traffic_light_interfaces) StdoutLine: {'line': b'-- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/include/traffic_light_interfaces/msg/detail/b_box_centers__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[87.632987] (-) TimerEvent: {}
+[87.690622] (traffic_light_interfaces) StdoutLine: {'line': b'-- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/include/traffic_light_interfaces/msg/detail/bounding_box__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[87.733742] (-) TimerEvent: {}
+[87.744692] (traffic_light_interfaces) StdoutLine: {'line': b'-- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/include/traffic_light_interfaces/msg/detail/bounding_boxes__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[87.780542] (traffic_light_interfaces) StdoutLine: {'line': b'-- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/include/traffic_light_interfaces/msg/detail/dds_fastrtps\n'}
+[87.806805] (traffic_light_interfaces) StdoutLine: {'line': b'-- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/include/traffic_light_interfaces/msg/detail/header__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[87.833910] (-) TimerEvent: {}
+[87.838151] (traffic_light_interfaces) StdoutLine: {'line': b'-- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/include/traffic_light_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[87.868029] (traffic_light_interfaces) StdoutLine: {'line': b'-- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/lib/libtraffic_light_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[87.930967] (traffic_light_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/root/rootfs/ros2_ws/src/install/traffic_light_interfaces/lib/libtraffic_light_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[87.935057] (-) TimerEvent: {}
+[87.937216] (traffic_light_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/include/traffic_light_interfaces\n'}
+[87.945591] (traffic_light_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/include/traffic_light_interfaces/msg\n'}
+[87.951569] (traffic_light_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/include/traffic_light_interfaces/msg/detail\n'}
+[87.959521] (traffic_light_interfaces) StdoutLine: {'line': b'-- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/include/traffic_light_interfaces/msg/detail/b_box_center__rosidl_typesupport_introspection_c.h\n'}
+[87.996968] (traffic_light_interfaces) StdoutLine: {'line': b'-- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/include/traffic_light_interfaces/msg/detail/b_box_center__type_support.c\n'}
+[88.035428] (-) TimerEvent: {}
+[88.060533] (traffic_light_interfaces) StdoutLine: {'line': b'-- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/include/traffic_light_interfaces/msg/detail/b_box_centers__rosidl_typesupport_introspection_c.h\n'}
+[88.174755] (-) TimerEvent: {}
+[88.226304] (traffic_light_interfaces) StdoutLine: {'line': b'-- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/include/traffic_light_interfaces/msg/detail/b_box_centers__type_support.c\n'}
+[88.268226] (traffic_light_interfaces) StdoutLine: {'line': b'-- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/include/traffic_light_interfaces/msg/detail/bounding_box__rosidl_typesupport_introspection_c.h\n'}
+[88.275000] (-) TimerEvent: {}
+[88.296632] (traffic_light_interfaces) StdoutLine: {'line': b'-- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/include/traffic_light_interfaces/msg/detail/bounding_box__type_support.c\n'}
+[88.329089] (traffic_light_interfaces) StdoutLine: {'line': b'-- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/include/traffic_light_interfaces/msg/detail/bounding_boxes__rosidl_typesupport_introspection_c.h\n'}
+[88.360872] (traffic_light_interfaces) StdoutLine: {'line': b'-- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/include/traffic_light_interfaces/msg/detail/bounding_boxes__type_support.c\n'}
+[88.375173] (-) TimerEvent: {}
+[88.392182] (traffic_light_interfaces) StdoutLine: {'line': b'-- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/include/traffic_light_interfaces/msg/detail/header__rosidl_typesupport_introspection_c.h\n'}
+[88.431865] (traffic_light_interfaces) StdoutLine: {'line': b'-- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/include/traffic_light_interfaces/msg/detail/header__type_support.c\n'}
+[88.460068] (traffic_light_interfaces) StdoutLine: {'line': b'-- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/include/traffic_light_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[88.475416] (-) TimerEvent: {}
+[88.491578] (traffic_light_interfaces) StdoutLine: {'line': b'-- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/lib/libtraffic_light_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[88.543953] (traffic_light_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/root/rootfs/ros2_ws/src/install/traffic_light_interfaces/lib/libtraffic_light_interfaces__rosidl_typesupport_introspection_c.so" to ""\n'}
+[88.555401] (traffic_light_interfaces) StdoutLine: {'line': b'-- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/lib/libtraffic_light_interfaces__rosidl_typesupport_c.so\n'}
+[88.575708] (-) TimerEvent: {}
+[88.602722] (traffic_light_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/root/rootfs/ros2_ws/src/install/traffic_light_interfaces/lib/libtraffic_light_interfaces__rosidl_typesupport_c.so" to ""\n'}
+[88.610680] (traffic_light_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/include/traffic_light_interfaces\n'}
+[88.624433] (traffic_light_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/include/traffic_light_interfaces/msg\n'}
+[88.636999] (traffic_light_interfaces) StdoutLine: {'line': b'-- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/include/traffic_light_interfaces/msg/b_box_center.hpp\n'}
+[88.669647] (traffic_light_interfaces) StdoutLine: {'line': b'-- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/include/traffic_light_interfaces/msg/b_box_centers.hpp\n'}
+[88.675730] (-) TimerEvent: {}
+[88.702652] (traffic_light_interfaces) StdoutLine: {'line': b'-- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/include/traffic_light_interfaces/msg/bounding_box.hpp\n'}
+[88.736129] (traffic_light_interfaces) StdoutLine: {'line': b'-- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/include/traffic_light_interfaces/msg/bounding_boxes.hpp\n'}
+[88.776118] (-) TimerEvent: {}
+[88.779724] (traffic_light_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/include/traffic_light_interfaces/msg/detail\n'}
+[88.787236] (traffic_light_interfaces) StdoutLine: {'line': b'-- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/include/traffic_light_interfaces/msg/detail/b_box_center__builder.hpp\n'}
+[88.823897] (traffic_light_interfaces) StdoutLine: {'line': b'-- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/include/traffic_light_interfaces/msg/detail/b_box_center__struct.hpp\n'}
+[88.859260] (traffic_light_interfaces) StdoutLine: {'line': b'-- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/include/traffic_light_interfaces/msg/detail/b_box_center__traits.hpp\n'}
+[88.876447] (-) TimerEvent: {}
+[88.893397] (traffic_light_interfaces) StdoutLine: {'line': b'-- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/include/traffic_light_interfaces/msg/detail/b_box_centers__builder.hpp\n'}
+[88.935148] (traffic_light_interfaces) StdoutLine: {'line': b'-- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/include/traffic_light_interfaces/msg/detail/b_box_centers__struct.hpp\n'}
+[88.976751] (-) TimerEvent: {}
+[88.978827] (traffic_light_interfaces) StdoutLine: {'line': b'-- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/include/traffic_light_interfaces/msg/detail/b_box_centers__traits.hpp\n'}
+[89.011391] (traffic_light_interfaces) StdoutLine: {'line': b'-- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/include/traffic_light_interfaces/msg/detail/bounding_box__builder.hpp\n'}
+[89.061098] (traffic_light_interfaces) StdoutLine: {'line': b'-- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/include/traffic_light_interfaces/msg/detail/bounding_box__struct.hpp\n'}
+[89.076902] (-) TimerEvent: {}
+[89.090745] (traffic_light_interfaces) StdoutLine: {'line': b'-- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/include/traffic_light_interfaces/msg/detail/bounding_box__traits.hpp\n'}
+[89.151523] (traffic_light_interfaces) StdoutLine: {'line': b'-- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/include/traffic_light_interfaces/msg/detail/bounding_boxes__builder.hpp\n'}
+[89.177057] (-) TimerEvent: {}
+[89.192887] (traffic_light_interfaces) StdoutLine: {'line': b'-- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/include/traffic_light_interfaces/msg/detail/bounding_boxes__struct.hpp\n'}
+[89.230261] (traffic_light_interfaces) StdoutLine: {'line': b'-- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/include/traffic_light_interfaces/msg/detail/bounding_boxes__traits.hpp\n'}
+[89.267632] (traffic_light_interfaces) StdoutLine: {'line': b'-- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/include/traffic_light_interfaces/msg/detail/header__builder.hpp\n'}
+[89.277510] (-) TimerEvent: {}
+[89.305974] (traffic_light_interfaces) StdoutLine: {'line': b'-- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/include/traffic_light_interfaces/msg/detail/header__struct.hpp\n'}
+[89.338455] (traffic_light_interfaces) StdoutLine: {'line': b'-- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/include/traffic_light_interfaces/msg/detail/header__traits.hpp\n'}
+[89.377820] (-) TimerEvent: {}
+[89.382971] (traffic_light_interfaces) StdoutLine: {'line': b'-- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/include/traffic_light_interfaces/msg/header.hpp\n'}
+[89.424876] (traffic_light_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/include/traffic_light_interfaces\n'}
+[89.434466] (traffic_light_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/include/traffic_light_interfaces/msg\n'}
+[89.443621] (traffic_light_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/include/traffic_light_interfaces/msg/detail\n'}
+[89.461057] (traffic_light_interfaces) StdoutLine: {'line': b'-- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/include/traffic_light_interfaces/msg/detail/b_box_center__rosidl_typesupport_introspection_cpp.hpp\n'}
+[89.477958] (-) TimerEvent: {}
+[89.498549] (traffic_light_interfaces) StdoutLine: {'line': b'-- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/include/traffic_light_interfaces/msg/detail/b_box_center__type_support.cpp\n'}
+[89.534690] (traffic_light_interfaces) StdoutLine: {'line': b'-- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/include/traffic_light_interfaces/msg/detail/b_box_centers__rosidl_typesupport_introspection_cpp.hpp\n'}
+[89.566259] (traffic_light_interfaces) StdoutLine: {'line': b'-- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/include/traffic_light_interfaces/msg/detail/b_box_centers__type_support.cpp\n'}
+[89.578330] (-) TimerEvent: {}
+[89.607611] (traffic_light_interfaces) StdoutLine: {'line': b'-- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/include/traffic_light_interfaces/msg/detail/bounding_box__rosidl_typesupport_introspection_cpp.hpp\n'}
+[89.647604] (traffic_light_interfaces) StdoutLine: {'line': b'-- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/include/traffic_light_interfaces/msg/detail/bounding_box__type_support.cpp\n'}
+[89.677620] (traffic_light_interfaces) StdoutLine: {'line': b'-- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/include/traffic_light_interfaces/msg/detail/bounding_boxes__rosidl_typesupport_introspection_cpp.hpp\n'}
+[89.683252] (-) TimerEvent: {}
+[89.710898] (traffic_light_interfaces) StdoutLine: {'line': b'-- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/include/traffic_light_interfaces/msg/detail/bounding_boxes__type_support.cpp\n'}
+[89.755919] (traffic_light_interfaces) StdoutLine: {'line': b'-- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/include/traffic_light_interfaces/msg/detail/header__rosidl_typesupport_introspection_cpp.hpp\n'}
+[89.783637] (-) TimerEvent: {}
+[89.792345] (traffic_light_interfaces) StdoutLine: {'line': b'-- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/include/traffic_light_interfaces/msg/detail/header__type_support.cpp\n'}
+[89.832326] (traffic_light_interfaces) StdoutLine: {'line': b'-- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/lib/libtraffic_light_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[89.884037] (-) TimerEvent: {}
+[89.914358] (traffic_light_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/root/rootfs/ros2_ws/src/install/traffic_light_interfaces/lib/libtraffic_light_interfaces__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[89.930680] (traffic_light_interfaces) StdoutLine: {'line': b'-- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/lib/libtraffic_light_interfaces__rosidl_typesupport_cpp.so\n'}
+[89.974426] (traffic_light_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/root/rootfs/ros2_ws/src/install/traffic_light_interfaces/lib/libtraffic_light_interfaces__rosidl_typesupport_cpp.so" to ""\n'}
+[89.981843] (traffic_light_interfaces) StdoutLine: {'line': b'-- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/share/traffic_light_interfaces/environment/pythonpath.sh\n'}
+[89.987645] (-) TimerEvent: {}
+[90.013849] (traffic_light_interfaces) StdoutLine: {'line': b'-- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/share/traffic_light_interfaces/environment/pythonpath.dsv\n'}
+[90.087796] (-) TimerEvent: {}
+[90.094687] (traffic_light_interfaces) StdoutLine: {'line': b'-- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/lib/python3.8/site-packages/traffic_light_interfaces/__init__.py\n'}
+[90.188245] (-) TimerEvent: {}
+[90.244311] (traffic_light_interfaces) StdoutLine: {'line': b"Compiling '/root/rootfs/ros2_ws/src/install/traffic_light_interfaces/lib/python3.8/site-packages/traffic_light_interfaces/__init__.py'...\n"}
+[90.264790] (traffic_light_interfaces) StdoutLine: {'line': b'-- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/lib/python3.8/site-packages/traffic_light_interfaces/msg\n'}
+[90.286599] (traffic_light_interfaces) StdoutLine: {'line': b'-- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/lib/python3.8/site-packages/traffic_light_interfaces/msg/__init__.py\n'}
+[90.292579] (-) TimerEvent: {}
+[90.393345] (traffic_light_interfaces) StdoutLine: {'line': b'-- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/lib/python3.8/site-packages/traffic_light_interfaces/msg/_b_box_center.py\n'}
+[90.413866] (-) TimerEvent: {}
+[90.501369] (traffic_light_interfaces) StdoutLine: {'line': b'-- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/lib/python3.8/site-packages/traffic_light_interfaces/msg/_b_box_center_s.c\n'}
+[90.533276] (-) TimerEvent: {}
+[90.564377] (traffic_light_interfaces) StdoutLine: {'line': b'-- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/lib/python3.8/site-packages/traffic_light_interfaces/msg/_b_box_centers.py\n'}
+[90.604077] (traffic_light_interfaces) StdoutLine: {'line': b'-- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/lib/python3.8/site-packages/traffic_light_interfaces/msg/_b_box_centers_s.c\n'}
+[90.633589] (-) TimerEvent: {}
+[90.641589] (traffic_light_interfaces) StdoutLine: {'line': b'-- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/lib/python3.8/site-packages/traffic_light_interfaces/msg/_bounding_box.py\n'}
+[90.681314] (traffic_light_interfaces) StdoutLine: {'line': b'-- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/lib/python3.8/site-packages/traffic_light_interfaces/msg/_bounding_box_s.c\n'}
+[90.707430] (traffic_light_interfaces) StdoutLine: {'line': b'-- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/lib/python3.8/site-packages/traffic_light_interfaces/msg/_bounding_boxes.py\n'}
+[90.733867] (-) TimerEvent: {}
+[90.740892] (traffic_light_interfaces) StdoutLine: {'line': b'-- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/lib/python3.8/site-packages/traffic_light_interfaces/msg/_bounding_boxes_s.c\n'}
+[90.768870] (traffic_light_interfaces) StdoutLine: {'line': b'-- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/lib/python3.8/site-packages/traffic_light_interfaces/msg/_header.py\n'}
+[90.800968] (traffic_light_interfaces) StdoutLine: {'line': b'-- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/lib/python3.8/site-packages/traffic_light_interfaces/msg/_header_s.c\n'}
+[90.834161] (-) TimerEvent: {}
+[90.839594] (traffic_light_interfaces) StdoutLine: {'line': b'-- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/lib/python3.8/site-packages/traffic_light_interfaces/traffic_light_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\n'}
+[90.886184] (traffic_light_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/root/rootfs/ros2_ws/src/install/traffic_light_interfaces/lib/python3.8/site-packages/traffic_light_interfaces/traffic_light_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so" to ""\n'}
+[90.898825] (traffic_light_interfaces) StdoutLine: {'line': b'-- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/lib/python3.8/site-packages/traffic_light_interfaces/traffic_light_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\n'}
+[90.934497] (-) TimerEvent: {}
+[90.952042] (traffic_light_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/root/rootfs/ros2_ws/src/install/traffic_light_interfaces/lib/python3.8/site-packages/traffic_light_interfaces/traffic_light_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so" to ""\n'}
+[90.966125] (traffic_light_interfaces) StdoutLine: {'line': b'-- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/lib/python3.8/site-packages/traffic_light_interfaces/traffic_light_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\n'}
+[91.076465] (-) TimerEvent: {}
+[91.110166] (traffic_light_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/root/rootfs/ros2_ws/src/install/traffic_light_interfaces/lib/python3.8/site-packages/traffic_light_interfaces/traffic_light_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so" to ""\n'}
+[91.128795] (traffic_light_interfaces) StdoutLine: {'line': b'-- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/lib/libtraffic_light_interfaces__python.so\n'}
+[91.176690] (-) TimerEvent: {}
+[91.190204] (traffic_light_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/root/rootfs/ros2_ws/src/install/traffic_light_interfaces/lib/libtraffic_light_interfaces__python.so" to ""\n'}
+[91.212279] (traffic_light_interfaces) StdoutLine: {'line': b'-- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/share/traffic_light_interfaces/msg/Header.idl\n'}
+[91.250191] (traffic_light_interfaces) StdoutLine: {'line': b'-- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/share/traffic_light_interfaces/msg/BBoxCenter.idl\n'}
+[91.277337] (-) TimerEvent: {}
+[91.285980] (traffic_light_interfaces) StdoutLine: {'line': b'-- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/share/traffic_light_interfaces/msg/BBoxCenters.idl\n'}
+[91.318494] (traffic_light_interfaces) StdoutLine: {'line': b'-- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/share/traffic_light_interfaces/msg/BoundingBox.idl\n'}
+[91.351014] (traffic_light_interfaces) StdoutLine: {'line': b'-- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/share/traffic_light_interfaces/msg/BoundingBoxes.idl\n'}
+[91.377646] (-) TimerEvent: {}
+[91.384734] (traffic_light_interfaces) StdoutLine: {'line': b'-- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/share/traffic_light_interfaces/msg/Header.msg\n'}
+[91.412376] (traffic_light_interfaces) StdoutLine: {'line': b'-- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/share/traffic_light_interfaces/msg/BBoxCenter.msg\n'}
+[91.448017] (traffic_light_interfaces) StdoutLine: {'line': b'-- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/share/traffic_light_interfaces/msg/BBoxCenters.msg\n'}
+[91.478351] (-) TimerEvent: {}
+[91.482108] (traffic_light_interfaces) StdoutLine: {'line': b'-- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/share/traffic_light_interfaces/msg/BoundingBox.msg\n'}
+[91.506742] (traffic_light_interfaces) StdoutLine: {'line': b'-- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/share/traffic_light_interfaces/msg/BoundingBoxes.msg\n'}
+[91.558314] (traffic_light_interfaces) StdoutLine: {'line': b'-- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/share/ament_index/resource_index/package_run_dependencies/traffic_light_interfaces\n'}
+[91.578632] (-) TimerEvent: {}
+[91.608763] (traffic_light_interfaces) StdoutLine: {'line': b'-- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/share/ament_index/resource_index/parent_prefix_path/traffic_light_interfaces\n'}
+[91.653601] (traffic_light_interfaces) StdoutLine: {'line': b'-- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/share/traffic_light_interfaces/environment/ament_prefix_path.sh\n'}
+[91.678880] (-) TimerEvent: {}
+[91.688299] (traffic_light_interfaces) StdoutLine: {'line': b'-- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/share/traffic_light_interfaces/environment/ament_prefix_path.dsv\n'}
+[91.731016] (traffic_light_interfaces) StdoutLine: {'line': b'-- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/share/traffic_light_interfaces/environment/path.sh\n'}
+[91.763724] (traffic_light_interfaces) StdoutLine: {'line': b'-- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/share/traffic_light_interfaces/environment/path.dsv\n'}
+[91.779230] (-) TimerEvent: {}
+[91.812878] (traffic_light_interfaces) StdoutLine: {'line': b'-- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/share/traffic_light_interfaces/local_setup.bash\n'}
+[91.879636] (-) TimerEvent: {}
+[91.882536] (traffic_light_interfaces) StdoutLine: {'line': b'-- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/share/traffic_light_interfaces/local_setup.sh\n'}
+[91.949124] (traffic_light_interfaces) StdoutLine: {'line': b'-- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/share/traffic_light_interfaces/local_setup.zsh\n'}
+[91.980087] (-) TimerEvent: {}
+[91.999422] (traffic_light_interfaces) StdoutLine: {'line': b'-- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/share/traffic_light_interfaces/local_setup.dsv\n'}
+[92.056040] (traffic_light_interfaces) StdoutLine: {'line': b'-- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/share/traffic_light_interfaces/package.dsv\n'}
+[92.080645] (-) TimerEvent: {}
+[92.147830] (traffic_light_interfaces) StdoutLine: {'line': b'-- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/share/ament_index/resource_index/packages/traffic_light_interfaces\n'}
+[92.180846] (-) TimerEvent: {}
+[92.234444] (traffic_light_interfaces) StdoutLine: {'line': b'-- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/share/traffic_light_interfaces/cmake/traffic_light_interfaces__rosidl_generator_cExport.cmake\n'}
+[92.287801] (traffic_light_interfaces) StdoutLine: {'line': b'-- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/share/traffic_light_interfaces/cmake/traffic_light_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[92.324234] (-) TimerEvent: {}
+[92.376715] (traffic_light_interfaces) StdoutLine: {'line': b'-- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/share/traffic_light_interfaces/cmake/traffic_light_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[92.423687] (traffic_light_interfaces) StdoutLine: {'line': b'-- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/share/traffic_light_interfaces/cmake/traffic_light_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[92.430127] (-) TimerEvent: {}
+[92.490608] (traffic_light_interfaces) StdoutLine: {'line': b'-- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/share/traffic_light_interfaces/cmake/traffic_light_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[92.530841] (-) TimerEvent: {}
+[92.535372] (traffic_light_interfaces) StdoutLine: {'line': b'-- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/share/traffic_light_interfaces/cmake/traffic_light_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[92.584048] (traffic_light_interfaces) StdoutLine: {'line': b'-- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/share/traffic_light_interfaces/cmake/traffic_light_interfaces__rosidl_generator_cppExport.cmake\n'}
+[92.620017] (traffic_light_interfaces) StdoutLine: {'line': b'-- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/share/traffic_light_interfaces/cmake/traffic_light_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[92.631024] (-) TimerEvent: {}
+[92.656278] (traffic_light_interfaces) StdoutLine: {'line': b'-- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/share/traffic_light_interfaces/cmake/traffic_light_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[92.700689] (traffic_light_interfaces) StdoutLine: {'line': b'-- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/share/traffic_light_interfaces/cmake/traffic_light_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[92.731244] (-) TimerEvent: {}
+[92.747414] (traffic_light_interfaces) StdoutLine: {'line': b'-- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/share/traffic_light_interfaces/cmake/traffic_light_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[92.786964] (traffic_light_interfaces) StdoutLine: {'line': b'-- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/share/traffic_light_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[92.818086] (traffic_light_interfaces) StdoutLine: {'line': b'-- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/share/traffic_light_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[92.831523] (-) TimerEvent: {}
+[92.846439] (traffic_light_interfaces) StdoutLine: {'line': b'-- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/share/traffic_light_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[92.888743] (traffic_light_interfaces) StdoutLine: {'line': b'-- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/share/traffic_light_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[92.926515] (traffic_light_interfaces) StdoutLine: {'line': b'-- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/share/traffic_light_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[92.936924] (-) TimerEvent: {}
+[92.968404] (traffic_light_interfaces) StdoutLine: {'line': b'-- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/share/traffic_light_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[93.062566] (traffic_light_interfaces) StdoutLine: {'line': b'-- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/share/traffic_light_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[93.075609] (-) TimerEvent: {}
+[93.156298] (traffic_light_interfaces) StdoutLine: {'line': b'-- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/share/traffic_light_interfaces/cmake/traffic_light_interfacesConfig.cmake\n'}
+[93.178768] (-) TimerEvent: {}
+[93.213350] (traffic_light_interfaces) StdoutLine: {'line': b'-- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/share/traffic_light_interfaces/cmake/traffic_light_interfacesConfig-version.cmake\n'}
+[93.271477] (traffic_light_interfaces) StdoutLine: {'line': b'-- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/share/traffic_light_interfaces/package.xml\n'}
+[93.289530] (-) TimerEvent: {}
+[93.364280] (traffic_light_interfaces) CommandEnded: {'returncode': 0}
+[93.391671] (-) TimerEvent: {}
+[93.494116] (-) TimerEvent: {}
+[93.597912] (-) TimerEvent: {}
+[93.700339] (-) TimerEvent: {}
+[93.802947] (-) TimerEvent: {}
+[93.905823] (-) TimerEvent: {}
+[94.008368] (-) TimerEvent: {}
+[94.110823] (-) TimerEvent: {}
+[94.212944] (-) TimerEvent: {}
+[94.314677] (-) TimerEvent: {}
+[94.418754] (-) TimerEvent: {}
+[94.421566] (traffic_light_interfaces) JobEnded: {'identifier': 'traffic_light_interfaces', 'rc': 0}
+[94.439208] (-) EventReactorShutdown: {}

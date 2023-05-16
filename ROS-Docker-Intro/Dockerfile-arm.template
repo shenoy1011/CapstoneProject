@@ -1,0 +1,11 @@
+FROM i0x0i/foxy-noetic:arm64
+WORKDIR /root
+ENTRYPOINT ["/bin/bash","/root/startVNC.sh"]
+
+RUN apt-get update && \
+    DEBIAN_FRONTEND=noninteractive && \
+    apt-get install -y python3-pcl python3-pip && \
+    pip install torch torchvision torchaudio --extra-index-url https://download.pytorch.org/whl/cpu && \
+    pip install python-dateutil && \ 
+    pip install ultralytics && \
+    bash

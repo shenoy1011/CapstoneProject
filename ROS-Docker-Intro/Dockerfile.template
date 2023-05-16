@@ -1,0 +1,17 @@
+FROM i0x0i/foxy-noetic
+WORKDIR /root
+ENTRYPOINT ["/bin/bash","/root/startVNC.sh"]
+
+RUN sudo sh -c 'echo "deb [arch=amd64,arm64] http://repo.ros2.org/ubuntu/main `lsb_release -cs` main" > /etc/apt/sources.list.d/ros2-latest.list' && \
+    curl -s https://raw.githubusercontent.com/ros/rosdistro/master/ros.asc | sudo apt-key add - && \
+    apt-get update && \
+    DEBIAN_FRONTEND=noninteractive && \
+    apt-get install -y python3-pcl python3-pip && \
+    pip install torch torchvision torchaudio --extra-index-url https://download.pytorch.org/whl/cpu && \
+    pip install ultralytics && \
+    pip install lap && \
+    pip install torch torchvision && \
+    pip install python-dateutil --upgrade && \
+    pip install norfair && \
+    sudo apt install -y python3-colcon-common-extensions && \
+    bash

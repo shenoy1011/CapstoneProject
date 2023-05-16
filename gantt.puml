@@ -1,0 +1,24 @@
+
+@startgantt
+[Team Formation] lasts 7 days
+[Research and Proposal] lasts 16 days
+[Detection w/ Pretrained Model] lasts 14 days
+[Custom Model Training] lasts 33 days
+[Tracking] lasts 14 days
+[Further Logic/Flashing Detection] lasts 13 days
+[Final Testing and Polishing] lasts 7 days
+[Demos and Presentations] lasts 11 days
+
+Project starts 2023-01-24
+[Team Formation] ends 2023-01-31
+[Research and Proposal] ends 2023-02-16
+[Detection w/ Pretrained Model] ends 2023-03-02
+[Custom Model Training] ends 2023-03-21
+[Tracking] ends 2023-04-04
+[Further Logic/Flashing Detection] ends 2023-04-17
+[Final Testing and Polishing] ends 2023-04-24
+[Demos and Presentations] ends 2023-05-05
+
+
+
+@endgantt

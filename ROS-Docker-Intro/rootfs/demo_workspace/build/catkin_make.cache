@@ -1,0 +1,2 @@
+
+-DCATKIN_DEVEL_PREFIX=/root/rootfs/demo_workspace/devel -DCMAKE_INSTALL_PREFIX=/root/rootfs/demo_workspace/install -G Unix Makefiles

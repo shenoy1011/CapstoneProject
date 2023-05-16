@@ -1,0 +1,5 @@
+/root/rootfs/ros2_ws/build/traffic_light_interfaces/rosidl_adapter/traffic_light_interfaces:msg/Header.idl
+/root/rootfs/ros2_ws/build/traffic_light_interfaces/rosidl_adapter/traffic_light_interfaces:msg/BBoxCenter.idl
+/root/rootfs/ros2_ws/build/traffic_light_interfaces/rosidl_adapter/traffic_light_interfaces:msg/BBoxCenters.idl
+/root/rootfs/ros2_ws/build/traffic_light_interfaces/rosidl_adapter/traffic_light_interfaces:msg/BoundingBox.idl
+/root/rootfs/ros2_ws/build/traffic_light_interfaces/rosidl_adapter/traffic_light_interfaces:msg/BoundingBoxes.idl

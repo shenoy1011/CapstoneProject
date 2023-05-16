@@ -1,0 +1,10 @@
+msg/BBoxCenter.idl
+msg/BBoxCenter.msg
+msg/BBoxCenters.idl
+msg/BBoxCenters.msg
+msg/BoundingBox.idl
+msg/BoundingBox.msg
+msg/BoundingBoxes.idl
+msg/BoundingBoxes.msg
+msg/Header.idl
+msg/Header.msg

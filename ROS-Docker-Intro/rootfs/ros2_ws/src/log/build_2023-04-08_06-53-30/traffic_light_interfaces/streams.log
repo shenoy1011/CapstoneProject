@@ -1,0 +1,317 @@
+[0.324s] Invoking command in '/root/rootfs/ros2_ws/src/build/traffic_light_interfaces': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /root/rootfs/ros2_ws/src/traffic_light_interfaces -DCMAKE_INSTALL_PREFIX=/root/rootfs/ros2_ws/src/install/traffic_light_interfaces
+[2.029s] -- The C compiler identification is GNU 9.4.0
+[3.104s] -- The CXX compiler identification is GNU 9.4.0
+[3.256s] -- Check for working C compiler: /usr/bin/cc
+[4.113s] -- Check for working C compiler: /usr/bin/cc -- works
+[4.123s] -- Detecting C compiler ABI info
+[5.092s] -- Detecting C compiler ABI info - done
+[5.150s] -- Detecting C compile features
+[5.155s] -- Detecting C compile features - done
+[5.204s] -- Check for working CXX compiler: /usr/bin/c++
+[6.072s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[6.082s] -- Detecting CXX compiler ABI info
+[7.010s] -- Detecting CXX compiler ABI info - done
+[7.078s] -- Detecting CXX compile features
+[7.084s] -- Detecting CXX compile features - done
+[7.191s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[7.290s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[7.295s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[8.232s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[8.286s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[8.338s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[8.917s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[9.046s] -- Found FastRTPS: /opt/ros/foxy/include  
+[9.399s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[9.775s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[10.661s] -- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)
+[12.948s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[13.673s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[13.729s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+[13.739s] -- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)
+[13.832s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") 
+[13.838s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[13.842s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[13.847s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+[13.906s] -- Found PythonExtra: .so  
+[15.399s] -- Configuring done
+[18.336s] -- Generating done
+[18.762s] -- Build files have been written to: /root/rootfs/ros2_ws/src/build/traffic_light_interfaces
+[18.858s] Invoked command in '/root/rootfs/ros2_ws/src/build/traffic_light_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /root/rootfs/ros2_ws/src/traffic_light_interfaces -DCMAKE_INSTALL_PREFIX=/root/rootfs/ros2_ws/src/install/traffic_light_interfaces
+[18.877s] Invoking command in '/root/rootfs/ros2_ws/src/build/traffic_light_interfaces': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /root/rootfs/ros2_ws/src/build/traffic_light_interfaces -- -j2 -l2
+[19.276s] [35m[1mScanning dependencies of target traffic_light_interfaces__cpp[0m
+[19.304s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[19.459s] [  3%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[22.694s] [  3%] Built target traffic_light_interfaces__cpp
+[22.809s] [  4%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[23.383s] [35m[1mScanning dependencies of target traffic_light_interfaces__rosidl_generator_c[0m
+[24.366s] [  6%] [32mBuilding C object CMakeFiles/traffic_light_interfaces__rosidl_generator_c.dir/rosidl_generator_c/traffic_light_interfaces/msg/detail/header__functions.c.o[0m
+[24.919s] [35m[1mScanning dependencies of target traffic_light_interfaces__rosidl_typesupport_cpp[0m
+[25.063s] [  7%] [32mBuilding C object CMakeFiles/traffic_light_interfaces__rosidl_generator_c.dir/rosidl_generator_c/traffic_light_interfaces/msg/detail/b_box_center__functions.c.o[0m
+[25.573s] [  9%] [32mBuilding C object CMakeFiles/traffic_light_interfaces__rosidl_generator_c.dir/rosidl_generator_c/traffic_light_interfaces/msg/detail/b_box_centers__functions.c.o[0m
+[25.978s] [ 11%] [32mBuilding CXX object CMakeFiles/traffic_light_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/traffic_light_interfaces/msg/header__type_support.cpp.o[0m
+[26.031s] [ 12%] [32mBuilding C object CMakeFiles/traffic_light_interfaces__rosidl_generator_c.dir/rosidl_generator_c/traffic_light_interfaces/msg/detail/bounding_box__functions.c.o[0m
+[26.452s] [ 14%] [32mBuilding C object CMakeFiles/traffic_light_interfaces__rosidl_generator_c.dir/rosidl_generator_c/traffic_light_interfaces/msg/detail/bounding_boxes__functions.c.o[0m
+[26.961s] [ 15%] [32m[1mLinking C shared library libtraffic_light_interfaces__rosidl_generator_c.so[0m
+[27.500s] [ 15%] Built target traffic_light_interfaces__rosidl_generator_c
+[27.553s] [ 17%] [32mBuilding CXX object CMakeFiles/traffic_light_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/traffic_light_interfaces/msg/b_box_center__type_support.cpp.o[0m
+[28.547s] [ 19%] [32mBuilding CXX object CMakeFiles/traffic_light_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/traffic_light_interfaces/msg/b_box_centers__type_support.cpp.o[0m
+[29.445s] [ 20%] [32mBuilding CXX object CMakeFiles/traffic_light_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/traffic_light_interfaces/msg/bounding_box__type_support.cpp.o[0m
+[30.377s] [ 22%] [32mBuilding CXX object CMakeFiles/traffic_light_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/traffic_light_interfaces/msg/bounding_boxes__type_support.cpp.o[0m
+[31.061s] [ 23%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[31.627s] [ 25%] [32m[1mLinking CXX shared library libtraffic_light_interfaces__rosidl_typesupport_cpp.so[0m
+[32.219s] [ 25%] Built target traffic_light_interfaces__rosidl_typesupport_cpp
+[32.342s] [ 26%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[33.179s] [35m[1mScanning dependencies of target traffic_light_interfaces__rosidl_typesupport_fastrtps_cpp[0m
+[34.713s] [ 28%] [32mBuilding CXX object CMakeFiles/traffic_light_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/traffic_light_interfaces/msg/detail/dds_fastrtps/header__type_support.cpp.o[0m
+[34.813s] [35m[1mScanning dependencies of target traffic_light_interfaces__rosidl_typesupport_introspection_c[0m
+[36.407s] [ 30%] [32mBuilding C object CMakeFiles/traffic_light_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/traffic_light_interfaces/msg/detail/header__type_support.c.o[0m
+[36.830s] [ 31%] [32mBuilding C object CMakeFiles/traffic_light_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/traffic_light_interfaces/msg/detail/b_box_center__type_support.c.o[0m
+[37.282s] [ 33%] [32mBuilding C object CMakeFiles/traffic_light_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/traffic_light_interfaces/msg/detail/b_box_centers__type_support.c.o[0m
+[37.734s] [ 34%] [32mBuilding C object CMakeFiles/traffic_light_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/traffic_light_interfaces/msg/detail/bounding_box__type_support.c.o[0m
+[38.014s] [ 36%] [32mBuilding CXX object CMakeFiles/traffic_light_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/traffic_light_interfaces/msg/detail/dds_fastrtps/b_box_center__type_support.cpp.o[0m
+[38.397s] [ 38%] [32mBuilding C object CMakeFiles/traffic_light_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/traffic_light_interfaces/msg/detail/bounding_boxes__type_support.c.o[0m
+[38.914s] [ 39%] [32m[1mLinking C shared library libtraffic_light_interfaces__rosidl_typesupport_introspection_c.so[0m
+[39.448s] [ 39%] Built target traffic_light_interfaces__rosidl_typesupport_introspection_c
+[39.554s] [ 41%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[40.466s] [ 42%] [32mBuilding CXX object CMakeFiles/traffic_light_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/traffic_light_interfaces/msg/detail/dds_fastrtps/b_box_centers__type_support.cpp.o[0m
+[41.084s] [35m[1mScanning dependencies of target traffic_light_interfaces__rosidl_typesupport_c[0m
+[41.926s] [ 44%] [32mBuilding CXX object CMakeFiles/traffic_light_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/traffic_light_interfaces/msg/header__type_support.cpp.o[0m
+[42.218s] [ 46%] [32mBuilding CXX object CMakeFiles/traffic_light_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/traffic_light_interfaces/msg/b_box_center__type_support.cpp.o[0m
+[42.492s] [ 47%] [32mBuilding CXX object CMakeFiles/traffic_light_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/traffic_light_interfaces/msg/b_box_centers__type_support.cpp.o[0m
+[42.793s] [ 49%] [32mBuilding CXX object CMakeFiles/traffic_light_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/traffic_light_interfaces/msg/bounding_box__type_support.cpp.o[0m
+[43.250s] [ 50%] [32mBuilding CXX object CMakeFiles/traffic_light_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/traffic_light_interfaces/msg/bounding_boxes__type_support.cpp.o[0m
+[43.666s] [ 52%] [32m[1mLinking CXX shared library libtraffic_light_interfaces__rosidl_typesupport_c.so[0m
+[43.765s] [ 53%] [32mBuilding CXX object CMakeFiles/traffic_light_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/traffic_light_interfaces/msg/detail/dds_fastrtps/bounding_box__type_support.cpp.o[0m
+[44.384s] [ 53%] Built target traffic_light_interfaces__rosidl_typesupport_c
+[44.483s] [ 55%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[45.973s] [ 57%] [32mBuilding CXX object CMakeFiles/traffic_light_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/traffic_light_interfaces/msg/detail/dds_fastrtps/bounding_boxes__type_support.cpp.o[0m
+[46.540s] [35m[1mScanning dependencies of target traffic_light_interfaces__rosidl_typesupport_introspection_cpp[0m
+[47.650s] [ 58%] [32mBuilding CXX object CMakeFiles/traffic_light_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/traffic_light_interfaces/msg/detail/header__type_support.cpp.o[0m
+[49.022s] [ 60%] [32m[1mLinking CXX shared library libtraffic_light_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[49.399s] [ 61%] [32mBuilding CXX object CMakeFiles/traffic_light_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/traffic_light_interfaces/msg/detail/b_box_center__type_support.cpp.o[0m
+[50.563s] [ 61%] Built target traffic_light_interfaces__rosidl_typesupport_fastrtps_cpp
+[50.656s] [ 63%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[51.241s] [ 65%] [32mBuilding CXX object CMakeFiles/traffic_light_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/traffic_light_interfaces/msg/detail/b_box_centers__type_support.cpp.o[0m
+[52.738s] [35m[1mScanning dependencies of target traffic_light_interfaces__rosidl_typesupport_fastrtps_c[0m
+[53.330s] [ 66%] [32mBuilding CXX object CMakeFiles/traffic_light_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/traffic_light_interfaces/msg/detail/bounding_box__type_support.cpp.o[0m
+[54.948s] [ 68%] [32mBuilding CXX object CMakeFiles/traffic_light_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/traffic_light_interfaces/msg/detail/header__type_support_c.cpp.o[0m
+[55.758s] [ 69%] [32mBuilding CXX object CMakeFiles/traffic_light_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/traffic_light_interfaces/msg/detail/bounding_boxes__type_support.cpp.o[0m
+[57.404s] [ 71%] [32m[1mLinking CXX shared library libtraffic_light_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[57.729s] [ 73%] [32mBuilding CXX object CMakeFiles/traffic_light_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/traffic_light_interfaces/msg/detail/b_box_center__type_support_c.cpp.o[0m
+[59.045s] [ 73%] Built target traffic_light_interfaces__rosidl_typesupport_introspection_cpp
+[59.116s] [ 74%] [32mBuilding CXX object CMakeFiles/traffic_light_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/traffic_light_interfaces/msg/detail/b_box_centers__type_support_c.cpp.o[0m
+[62.559s] [ 76%] [32mBuilding CXX object CMakeFiles/traffic_light_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/traffic_light_interfaces/msg/detail/bounding_box__type_support_c.cpp.o[0m
+[64.529s] [ 77%] [32mBuilding CXX object CMakeFiles/traffic_light_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/traffic_light_interfaces/msg/detail/bounding_boxes__type_support_c.cpp.o[0m
+[66.432s] [ 79%] [32m[1mLinking CXX shared library libtraffic_light_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[67.090s] [ 79%] Built target traffic_light_interfaces__rosidl_typesupport_fastrtps_c
+[67.149s] [35m[1mScanning dependencies of target traffic_light_interfaces[0m
+[67.227s] [ 79%] Built target traffic_light_interfaces
+[67.287s] [35m[1mScanning dependencies of target traffic_light_interfaces__py[0m
+[67.400s] [ 80%] [34m[1mGenerating Python code for ROS interfaces[0m
+[69.874s] [ 80%] Built target traffic_light_interfaces__py
+[69.933s] [35m[1mScanning dependencies of target traffic_light_interfaces__python[0m
+[73.675s] [ 82%] [32mBuilding C object CMakeFiles/traffic_light_interfaces__python.dir/rosidl_generator_py/traffic_light_interfaces/msg/_header_s.c.o[0m
+[74.610s] [ 84%] [32mBuilding C object CMakeFiles/traffic_light_interfaces__python.dir/rosidl_generator_py/traffic_light_interfaces/msg/_b_box_center_s.c.o[0m
+[75.412s] [ 85%] [32mBuilding C object CMakeFiles/traffic_light_interfaces__python.dir/rosidl_generator_py/traffic_light_interfaces/msg/_b_box_centers_s.c.o[0m
+[76.335s] [ 87%] [32mBuilding C object CMakeFiles/traffic_light_interfaces__python.dir/rosidl_generator_py/traffic_light_interfaces/msg/_bounding_boxes_s.c.o[0m
+[76.343s] [ 88%] [32mBuilding C object CMakeFiles/traffic_light_interfaces__python.dir/rosidl_generator_py/traffic_light_interfaces/msg/_bounding_box_s.c.o[0m
+[77.604s] [ 90%] [32m[1mLinking C shared library rosidl_generator_py/traffic_light_interfaces/libtraffic_light_interfaces__python.so[0m
+[78.074s] [ 90%] Built target traffic_light_interfaces__python
+[78.216s] [35m[1mScanning dependencies of target traffic_light_interfaces__rosidl_typesupport_fastrtps_c__pyext[0m
+[78.228s] [35m[1mScanning dependencies of target traffic_light_interfaces__rosidl_typesupport_introspection_c__pyext[0m
+[80.299s] [ 92%] [32mBuilding C object CMakeFiles/traffic_light_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/traffic_light_interfaces/_traffic_light_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[80.521s] [ 93%] [32mBuilding C object CMakeFiles/traffic_light_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/traffic_light_interfaces/_traffic_light_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[81.778s] [ 95%] [32m[1mLinking C shared library rosidl_generator_py/traffic_light_interfaces/traffic_light_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so[0m
+[82.212s] [ 95%] Built target traffic_light_interfaces__rosidl_typesupport_introspection_c__pyext
+[82.289s] [35m[1mScanning dependencies of target traffic_light_interfaces__rosidl_typesupport_c__pyext[0m
+[82.426s] [ 96%] [32m[1mLinking CXX shared library rosidl_generator_py/traffic_light_interfaces/traffic_light_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so[0m
+[83.040s] [ 96%] Built target traffic_light_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[84.018s] [ 98%] [32mBuilding C object CMakeFiles/traffic_light_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/traffic_light_interfaces/_traffic_light_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[84.854s] [100%] [32m[1mLinking C shared library rosidl_generator_py/traffic_light_interfaces/traffic_light_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so[0m
+[85.126s] [100%] Built target traffic_light_interfaces__rosidl_typesupport_c__pyext
+[85.388s] Invoked command in '/root/rootfs/ros2_ws/src/build/traffic_light_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /root/rootfs/ros2_ws/src/build/traffic_light_interfaces -- -j2 -l2
+[85.722s] Invoking command in '/root/rootfs/ros2_ws/src/build/traffic_light_interfaces': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /root/rootfs/ros2_ws/src/build/traffic_light_interfaces
+[85.758s] -- Install configuration: ""
+[85.792s] -- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/share/ament_index/resource_index/rosidl_interfaces/traffic_light_interfaces
+[85.829s] -- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/include/traffic_light_interfaces
+[85.862s] -- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/include/traffic_light_interfaces/msg
+[85.886s] -- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/include/traffic_light_interfaces/msg/b_box_center.h
+[85.921s] -- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/include/traffic_light_interfaces/msg/b_box_centers.h
+[85.989s] -- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/include/traffic_light_interfaces/msg/bounding_box.h
+[86.055s] -- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/include/traffic_light_interfaces/msg/bounding_boxes.h
+[86.113s] -- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/include/traffic_light_interfaces/msg/detail
+[86.138s] -- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/include/traffic_light_interfaces/msg/detail/b_box_center__functions.c
+[86.183s] -- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/include/traffic_light_interfaces/msg/detail/b_box_center__functions.h
+[86.221s] -- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/include/traffic_light_interfaces/msg/detail/b_box_center__struct.h
+[86.257s] -- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/include/traffic_light_interfaces/msg/detail/b_box_center__type_support.h
+[86.284s] -- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/include/traffic_light_interfaces/msg/detail/b_box_centers__functions.c
+[86.317s] -- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/include/traffic_light_interfaces/msg/detail/b_box_centers__functions.h
+[86.361s] -- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/include/traffic_light_interfaces/msg/detail/b_box_centers__struct.h
+[86.390s] -- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/include/traffic_light_interfaces/msg/detail/b_box_centers__type_support.h
+[86.431s] -- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/include/traffic_light_interfaces/msg/detail/bounding_box__functions.c
+[86.465s] -- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/include/traffic_light_interfaces/msg/detail/bounding_box__functions.h
+[86.503s] -- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/include/traffic_light_interfaces/msg/detail/bounding_box__struct.h
+[86.529s] -- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/include/traffic_light_interfaces/msg/detail/bounding_box__type_support.h
+[86.564s] -- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/include/traffic_light_interfaces/msg/detail/bounding_boxes__functions.c
+[86.607s] -- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/include/traffic_light_interfaces/msg/detail/bounding_boxes__functions.h
+[86.639s] -- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/include/traffic_light_interfaces/msg/detail/bounding_boxes__struct.h
+[86.679s] -- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/include/traffic_light_interfaces/msg/detail/bounding_boxes__type_support.h
+[86.731s] -- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/include/traffic_light_interfaces/msg/detail/header__functions.c
+[86.792s] -- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/include/traffic_light_interfaces/msg/detail/header__functions.h
+[86.845s] -- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/include/traffic_light_interfaces/msg/detail/header__struct.h
+[86.888s] -- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/include/traffic_light_interfaces/msg/detail/header__type_support.h
+[86.933s] -- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/include/traffic_light_interfaces/msg/header.h
+[86.985s] -- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/include/traffic_light_interfaces/msg/rosidl_generator_c__visibility_control.h
+[87.050s] -- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/share/traffic_light_interfaces/environment/library_path.sh
+[87.080s] -- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/share/traffic_light_interfaces/environment/library_path.dsv
+[87.119s] -- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/lib/libtraffic_light_interfaces__rosidl_generator_c.so
+[87.180s] -- Set runtime path of "/root/rootfs/ros2_ws/src/install/traffic_light_interfaces/lib/libtraffic_light_interfaces__rosidl_generator_c.so" to ""
+[87.189s] -- Up-to-date: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/include/traffic_light_interfaces
+[87.198s] -- Up-to-date: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/include/traffic_light_interfaces/msg
+[87.214s] -- Up-to-date: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/include/traffic_light_interfaces/msg/detail
+[87.236s] -- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/include/traffic_light_interfaces/msg/detail/b_box_center__rosidl_typesupport_fastrtps_c.h
+[87.284s] -- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/include/traffic_light_interfaces/msg/detail/b_box_centers__rosidl_typesupport_fastrtps_c.h
+[87.337s] -- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/include/traffic_light_interfaces/msg/detail/bounding_box__rosidl_typesupport_fastrtps_c.h
+[87.374s] -- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/include/traffic_light_interfaces/msg/detail/bounding_boxes__rosidl_typesupport_fastrtps_c.h
+[87.407s] -- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/include/traffic_light_interfaces/msg/detail/header__rosidl_typesupport_fastrtps_c.h
+[87.443s] -- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/include/traffic_light_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[87.479s] -- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/lib/libtraffic_light_interfaces__rosidl_typesupport_fastrtps_c.so
+[87.526s] -- Set runtime path of "/root/rootfs/ros2_ws/src/install/traffic_light_interfaces/lib/libtraffic_light_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[87.533s] -- Up-to-date: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/include/traffic_light_interfaces
+[87.541s] -- Up-to-date: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/include/traffic_light_interfaces/msg
+[87.548s] -- Up-to-date: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/include/traffic_light_interfaces/msg/detail
+[87.562s] -- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/include/traffic_light_interfaces/msg/detail/b_box_center__rosidl_typesupport_fastrtps_cpp.hpp
+[87.605s] -- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/include/traffic_light_interfaces/msg/detail/b_box_centers__rosidl_typesupport_fastrtps_cpp.hpp
+[87.701s] -- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/include/traffic_light_interfaces/msg/detail/bounding_box__rosidl_typesupport_fastrtps_cpp.hpp
+[87.738s] -- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/include/traffic_light_interfaces/msg/detail/bounding_boxes__rosidl_typesupport_fastrtps_cpp.hpp
+[87.773s] -- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/include/traffic_light_interfaces/msg/detail/dds_fastrtps
+[87.796s] -- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/include/traffic_light_interfaces/msg/detail/header__rosidl_typesupport_fastrtps_cpp.hpp
+[87.828s] -- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/include/traffic_light_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[87.859s] -- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/lib/libtraffic_light_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[87.919s] -- Set runtime path of "/root/rootfs/ros2_ws/src/install/traffic_light_interfaces/lib/libtraffic_light_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[87.928s] -- Up-to-date: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/include/traffic_light_interfaces
+[87.935s] -- Up-to-date: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/include/traffic_light_interfaces/msg
+[87.939s] -- Up-to-date: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/include/traffic_light_interfaces/msg/detail
+[87.948s] -- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/include/traffic_light_interfaces/msg/detail/b_box_center__rosidl_typesupport_introspection_c.h
+[87.992s] -- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/include/traffic_light_interfaces/msg/detail/b_box_center__type_support.c
+[88.055s] -- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/include/traffic_light_interfaces/msg/detail/b_box_centers__rosidl_typesupport_introspection_c.h
+[88.216s] -- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/include/traffic_light_interfaces/msg/detail/b_box_centers__type_support.c
+[88.257s] -- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/include/traffic_light_interfaces/msg/detail/bounding_box__rosidl_typesupport_introspection_c.h
+[88.285s] -- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/include/traffic_light_interfaces/msg/detail/bounding_box__type_support.c
+[88.318s] -- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/include/traffic_light_interfaces/msg/detail/bounding_boxes__rosidl_typesupport_introspection_c.h
+[88.351s] -- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/include/traffic_light_interfaces/msg/detail/bounding_boxes__type_support.c
+[88.383s] -- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/include/traffic_light_interfaces/msg/detail/header__rosidl_typesupport_introspection_c.h
+[88.420s] -- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/include/traffic_light_interfaces/msg/detail/header__type_support.c
+[88.451s] -- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/include/traffic_light_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[88.481s] -- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/lib/libtraffic_light_interfaces__rosidl_typesupport_introspection_c.so
+[88.533s] -- Set runtime path of "/root/rootfs/ros2_ws/src/install/traffic_light_interfaces/lib/libtraffic_light_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[88.545s] -- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/lib/libtraffic_light_interfaces__rosidl_typesupport_c.so
+[88.594s] -- Set runtime path of "/root/rootfs/ros2_ws/src/install/traffic_light_interfaces/lib/libtraffic_light_interfaces__rosidl_typesupport_c.so" to ""
+[88.602s] -- Up-to-date: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/include/traffic_light_interfaces
+[88.616s] -- Up-to-date: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/include/traffic_light_interfaces/msg
+[88.628s] -- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/include/traffic_light_interfaces/msg/b_box_center.hpp
+[88.659s] -- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/include/traffic_light_interfaces/msg/b_box_centers.hpp
+[88.692s] -- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/include/traffic_light_interfaces/msg/bounding_box.hpp
+[88.726s] -- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/include/traffic_light_interfaces/msg/bounding_boxes.hpp
+[88.769s] -- Up-to-date: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/include/traffic_light_interfaces/msg/detail
+[88.777s] -- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/include/traffic_light_interfaces/msg/detail/b_box_center__builder.hpp
+[88.815s] -- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/include/traffic_light_interfaces/msg/detail/b_box_center__struct.hpp
+[88.850s] -- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/include/traffic_light_interfaces/msg/detail/b_box_center__traits.hpp
+[88.882s] -- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/include/traffic_light_interfaces/msg/detail/b_box_centers__builder.hpp
+[88.927s] -- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/include/traffic_light_interfaces/msg/detail/b_box_centers__struct.hpp
+[88.969s] -- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/include/traffic_light_interfaces/msg/detail/b_box_centers__traits.hpp
+[89.006s] -- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/include/traffic_light_interfaces/msg/detail/bounding_box__builder.hpp
+[89.051s] -- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/include/traffic_light_interfaces/msg/detail/bounding_box__struct.hpp
+[89.081s] -- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/include/traffic_light_interfaces/msg/detail/bounding_box__traits.hpp
+[89.140s] -- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/include/traffic_light_interfaces/msg/detail/bounding_boxes__builder.hpp
+[89.183s] -- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/include/traffic_light_interfaces/msg/detail/bounding_boxes__struct.hpp
+[89.221s] -- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/include/traffic_light_interfaces/msg/detail/bounding_boxes__traits.hpp
+[89.257s] -- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/include/traffic_light_interfaces/msg/detail/header__builder.hpp
+[89.296s] -- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/include/traffic_light_interfaces/msg/detail/header__struct.hpp
+[89.331s] -- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/include/traffic_light_interfaces/msg/detail/header__traits.hpp
+[89.373s] -- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/include/traffic_light_interfaces/msg/header.hpp
+[89.415s] -- Up-to-date: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/include/traffic_light_interfaces
+[89.424s] -- Up-to-date: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/include/traffic_light_interfaces/msg
+[89.439s] -- Up-to-date: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/include/traffic_light_interfaces/msg/detail
+[89.452s] -- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/include/traffic_light_interfaces/msg/detail/b_box_center__rosidl_typesupport_introspection_cpp.hpp
+[89.488s] -- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/include/traffic_light_interfaces/msg/detail/b_box_center__type_support.cpp
+[89.525s] -- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/include/traffic_light_interfaces/msg/detail/b_box_centers__rosidl_typesupport_introspection_cpp.hpp
+[89.556s] -- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/include/traffic_light_interfaces/msg/detail/b_box_centers__type_support.cpp
+[89.599s] -- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/include/traffic_light_interfaces/msg/detail/bounding_box__rosidl_typesupport_introspection_cpp.hpp
+[89.637s] -- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/include/traffic_light_interfaces/msg/detail/bounding_box__type_support.cpp
+[89.666s] -- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/include/traffic_light_interfaces/msg/detail/bounding_boxes__rosidl_typesupport_introspection_cpp.hpp
+[89.703s] -- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/include/traffic_light_interfaces/msg/detail/bounding_boxes__type_support.cpp
+[89.748s] -- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/include/traffic_light_interfaces/msg/detail/header__rosidl_typesupport_introspection_cpp.hpp
+[89.783s] -- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/include/traffic_light_interfaces/msg/detail/header__type_support.cpp
+[89.822s] -- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/lib/libtraffic_light_interfaces__rosidl_typesupport_introspection_cpp.so
+[89.906s] -- Set runtime path of "/root/rootfs/ros2_ws/src/install/traffic_light_interfaces/lib/libtraffic_light_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[89.920s] -- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/lib/libtraffic_light_interfaces__rosidl_typesupport_cpp.so
+[89.964s] -- Set runtime path of "/root/rootfs/ros2_ws/src/install/traffic_light_interfaces/lib/libtraffic_light_interfaces__rosidl_typesupport_cpp.so" to ""
+[89.971s] -- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/share/traffic_light_interfaces/environment/pythonpath.sh
+[90.003s] -- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/share/traffic_light_interfaces/environment/pythonpath.dsv
+[90.100s] -- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/lib/python3.8/site-packages/traffic_light_interfaces/__init__.py
+[90.234s] Compiling '/root/rootfs/ros2_ws/src/install/traffic_light_interfaces/lib/python3.8/site-packages/traffic_light_interfaces/__init__.py'...
+[90.255s] -- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/lib/python3.8/site-packages/traffic_light_interfaces/msg
+[90.276s] -- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/lib/python3.8/site-packages/traffic_light_interfaces/msg/__init__.py
+[90.392s] -- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/lib/python3.8/site-packages/traffic_light_interfaces/msg/_b_box_center.py
+[90.515s] -- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/lib/python3.8/site-packages/traffic_light_interfaces/msg/_b_box_center_s.c
+[90.554s] -- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/lib/python3.8/site-packages/traffic_light_interfaces/msg/_b_box_centers.py
+[90.595s] -- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/lib/python3.8/site-packages/traffic_light_interfaces/msg/_b_box_centers_s.c
+[90.633s] -- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/lib/python3.8/site-packages/traffic_light_interfaces/msg/_bounding_box.py
+[90.673s] -- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/lib/python3.8/site-packages/traffic_light_interfaces/msg/_bounding_box_s.c
+[90.697s] -- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/lib/python3.8/site-packages/traffic_light_interfaces/msg/_bounding_boxes.py
+[90.731s] -- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/lib/python3.8/site-packages/traffic_light_interfaces/msg/_bounding_boxes_s.c
+[90.757s] -- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/lib/python3.8/site-packages/traffic_light_interfaces/msg/_header.py
+[90.790s] -- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/lib/python3.8/site-packages/traffic_light_interfaces/msg/_header_s.c
+[90.829s] -- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/lib/python3.8/site-packages/traffic_light_interfaces/traffic_light_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+[90.875s] -- Set runtime path of "/root/rootfs/ros2_ws/src/install/traffic_light_interfaces/lib/python3.8/site-packages/traffic_light_interfaces/traffic_light_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so" to ""
+[90.888s] -- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/lib/python3.8/site-packages/traffic_light_interfaces/traffic_light_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+[90.942s] -- Set runtime path of "/root/rootfs/ros2_ws/src/install/traffic_light_interfaces/lib/python3.8/site-packages/traffic_light_interfaces/traffic_light_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so" to ""
+[90.956s] -- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/lib/python3.8/site-packages/traffic_light_interfaces/traffic_light_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+[91.103s] -- Set runtime path of "/root/rootfs/ros2_ws/src/install/traffic_light_interfaces/lib/python3.8/site-packages/traffic_light_interfaces/traffic_light_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so" to ""
+[91.119s] -- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/lib/libtraffic_light_interfaces__python.so
+[91.180s] -- Set runtime path of "/root/rootfs/ros2_ws/src/install/traffic_light_interfaces/lib/libtraffic_light_interfaces__python.so" to ""
+[91.204s] -- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/share/traffic_light_interfaces/msg/Header.idl
+[91.239s] -- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/share/traffic_light_interfaces/msg/BBoxCenter.idl
+[91.275s] -- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/share/traffic_light_interfaces/msg/BBoxCenters.idl
+[91.310s] -- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/share/traffic_light_interfaces/msg/BoundingBox.idl
+[91.343s] -- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/share/traffic_light_interfaces/msg/BoundingBoxes.idl
+[91.373s] -- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/share/traffic_light_interfaces/msg/Header.msg
+[91.404s] -- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/share/traffic_light_interfaces/msg/BBoxCenter.msg
+[91.436s] -- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/share/traffic_light_interfaces/msg/BBoxCenters.msg
+[91.471s] -- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/share/traffic_light_interfaces/msg/BoundingBox.msg
+[91.501s] -- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/share/traffic_light_interfaces/msg/BoundingBoxes.msg
+[91.547s] -- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/share/ament_index/resource_index/package_run_dependencies/traffic_light_interfaces
+[91.597s] -- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/share/ament_index/resource_index/parent_prefix_path/traffic_light_interfaces
+[91.643s] -- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/share/traffic_light_interfaces/environment/ament_prefix_path.sh
+[91.683s] -- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/share/traffic_light_interfaces/environment/ament_prefix_path.dsv
+[91.720s] -- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/share/traffic_light_interfaces/environment/path.sh
+[91.756s] -- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/share/traffic_light_interfaces/environment/path.dsv
+[91.806s] -- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/share/traffic_light_interfaces/local_setup.bash
+[91.874s] -- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/share/traffic_light_interfaces/local_setup.sh
+[91.940s] -- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/share/traffic_light_interfaces/local_setup.zsh
+[91.989s] -- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/share/traffic_light_interfaces/local_setup.dsv
+[92.051s] -- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/share/traffic_light_interfaces/package.dsv
+[92.137s] -- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/share/ament_index/resource_index/packages/traffic_light_interfaces
+[92.229s] -- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/share/traffic_light_interfaces/cmake/traffic_light_interfaces__rosidl_generator_cExport.cmake
+[92.307s] -- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/share/traffic_light_interfaces/cmake/traffic_light_interfaces__rosidl_generator_cExport-noconfig.cmake
+[92.372s] -- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/share/traffic_light_interfaces/cmake/traffic_light_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[92.414s] -- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/share/traffic_light_interfaces/cmake/traffic_light_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[92.485s] -- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/share/traffic_light_interfaces/cmake/traffic_light_interfaces__rosidl_typesupport_cExport.cmake
+[92.525s] -- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/share/traffic_light_interfaces/cmake/traffic_light_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[92.573s] -- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/share/traffic_light_interfaces/cmake/traffic_light_interfaces__rosidl_generator_cppExport.cmake
+[92.611s] -- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/share/traffic_light_interfaces/cmake/traffic_light_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[92.647s] -- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/share/traffic_light_interfaces/cmake/traffic_light_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[92.690s] -- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/share/traffic_light_interfaces/cmake/traffic_light_interfaces__rosidl_typesupport_cppExport.cmake
+[92.737s] -- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/share/traffic_light_interfaces/cmake/traffic_light_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[92.776s] -- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/share/traffic_light_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[92.806s] -- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/share/traffic_light_interfaces/cmake/rosidl_cmake-extras.cmake
+[92.836s] -- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/share/traffic_light_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[92.878s] -- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/share/traffic_light_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[92.921s] -- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/share/traffic_light_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[92.967s] -- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/share/traffic_light_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[93.059s] -- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/share/traffic_light_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[93.159s] -- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/share/traffic_light_interfaces/cmake/traffic_light_interfacesConfig.cmake
+[93.205s] -- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/share/traffic_light_interfaces/cmake/traffic_light_interfacesConfig-version.cmake
+[93.263s] -- Installing: /root/rootfs/ros2_ws/src/install/traffic_light_interfaces/share/traffic_light_interfaces/package.xml
+[93.359s] Invoked command in '/root/rootfs/ros2_ws/src/build/traffic_light_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /root/rootfs/ros2_ws/src/build/traffic_light_interfaces

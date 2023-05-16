@@ -1,0 +1,3 @@
+[console_scripts]
+mlnode = project_package.ml_node
+

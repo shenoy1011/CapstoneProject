@@ -1,0 +1,10 @@
+{
+  "package_name": "traffic_light_interfaces",
+  "non_idl_tuples": [
+    "/root/rootfs/ros2_ws/src/traffic_light_interfaces:msg/Header.msg",
+    "/root/rootfs/ros2_ws/src/traffic_light_interfaces:msg/BBoxCenter.msg",
+    "/root/rootfs/ros2_ws/src/traffic_light_interfaces:msg/BBoxCenters.msg",
+    "/root/rootfs/ros2_ws/src/traffic_light_interfaces:msg/BoundingBox.msg",
+    "/root/rootfs/ros2_ws/src/traffic_light_interfaces:msg/BoundingBoxes.msg"
+  ]
+}
