@@ -30,18 +30,18 @@ In my senior year of college, me and my Capstone team created a YOLOv8-Norfair m
 2. Login to the page using "password".
 3. Right click on the page's empty space and select the "Terminal emulator" menu. Use this step to open up any new terminal on noVNC. 
 4. In the terminal window, run
-- cd /root/rootfs/ros2_ws
-- bash buildPkg.sh
-- If "bash buildPkg.sh" fails, then run 
-    - rm -r build/ install/ log/
+    - cd /root/rootfs/ros2_ws
+    - bash buildPkg.sh
+    - If "bash buildPkg.sh" fails, then run 
+        - rm -r build/ install/ log/
 5. Open a second terminal and run
-- source /root/rootfs/foxy_setup.sh; ros2 bag play -r 10 -s rosbag_v2 --loop rootfs/Intersection_2021-06-08-09-26-36.bag
+    - source /root/rootfs/foxy_setup.sh; ros2 bag play -r 10 -s rosbag_v2 --loop rootfs/Intersection_2021-06-08-09-26-36.bag
 6. Open a third terminal and run
-- cd /root/rootfs/ros2_ws
-- bash runML.sh
+    - cd /root/rootfs/ros2_ws
+    - bash runML.sh
 7. Open a fourth terminal and run
-- cd /root/rootfs/ros2_ws
-- bash runRes.sh
+    - cd /root/rootfs/ros2_ws
+    - bash runRes.sh
 8. In the fourth terminal, you will see bounding box information from our project's ROS custom messages. Additionally, a new window will pop up to show footage of driving with boxes enclosing traffic lights from our project's machine learning model. 
 9. Expect laggy footage and error in traffic light detection due to hardware incompatibility. The project's code is expected to run on specific computers and autonomous vehicle hardware. It is expected to not perform well on personal computers due to high RAM needs.
 
