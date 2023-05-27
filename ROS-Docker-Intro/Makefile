@@ -20,11 +20,11 @@ init:
 	#sudo docker run --name $(CONTAINERID_ID) -it -v `pwd`/rootfs:/root/rootfs --network host $(IMAGE_ID_TEMP)
 
 #Build image
-# build:
-# 	sudo docker build --tag=$(IMAGE_ID) .
-
 build:
-	sudo docker build -f Dockerfile.template --tag=$(IMAGE_ID_TEMP) .
+	sudo docker build --tag=$(IMAGE_ID) .
+
+# build:
+#	sudo docker build -f Dockerfile.template --tag=$(IMAGE_ID_TEMP) .
 
 # init-arm:
 # 	sudo docker run --name $(CONTAINERID_ID) -it -v `pwd`/rootfs:/root/rootfs -p 5901:5901 -p 6080:6080 -p 8888:8888 $(IMAGE_ID):arm64

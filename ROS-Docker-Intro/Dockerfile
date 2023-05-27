@@ -15,10 +15,10 @@ RUN apt-get update && \
     openssl req -x509 -nodes -newkey rsa:3072 -keyout novnc.pem -out novnc.pem -days 3650 -subj "/C=NA/ST=NA/L=NA/O=NA/OU=NA/CN=NA/emailAddress=NA" && \
     printf "rm -rf /tmp/.X1* \ntigervncserver :1 -xstartup /root/.xinit \n websockify --web=/usr/share/novnc/ -D --cert=novnc.pem 6080 127.0.0.1:5901 \n /bin/bash" > startVNC.sh && \
     printf "lxpanel &\n sleep 3 \n openbox-session" >.xinit && \
-    chmod 777 /root/*.sh /root/.xinit
+    chmod 777 /root/*.sh /root/.xinit && \
     bash && \
     apt-get install -y python3-pcl python3-pip && \
-    pip install torch torchvision
-    pip install python-dateutil --upgrade
-    pip install norfair
-    sudo apt install python3-colcon-common-extensions
+    pip install torch torchvision && \
+    pip install python-dateutil --upgrade && \
+    pip install norfair && \
+    sudo apt install -y python3-colcon-common-extensions

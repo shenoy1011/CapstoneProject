@@ -153,10 +153,10 @@ def callback_Img(data):
         cv2.rectangle(cv2_img[256:1024, 512:1536], (x1, y1), (x2, y2), (0,255,0), 2)
         boundingBoxMsg = BoundingBox()
         boundingBoxMsg.probability = float(track.last_detection.scores[0])
-        boundingBoxMsg.xmin = x1
-        boundingBoxMsg.ymin = y1
-        boundingBoxMsg.xmax = x2
-        boundingBoxMsg.ymax = y2
+        boundingBoxMsg.xmin = x1 + 512
+        boundingBoxMsg.ymin = y1 + 256
+        boundingBoxMsg.xmax = x2 + 512
+        boundingBoxMsg.ymax = y2 + 256
         boundingBoxMsg.id = track.id
         ratio = idsToMissedDetections[track.id] / track.age 
         if ((track.age > 3 and ratio > 0.125 and ratio < 0.7) and not (norfairLabel == 0)):
@@ -169,7 +169,7 @@ def callback_Img(data):
                 boundingBoxMsg.group.append(13)
                 boundingBoxMsg.group.append(3)
             else:
-                boundingBoxMsg.group.append(norfairLabeltoGroupField[norfairLabel])    
+                boundingBoxMsg.group.append(norfairLabeltoBlinkingGroupField[norfairLabel])    
         else:
             cv2.putText(cv2_img[256:1024, 512:1536], str(track.id) + ': ' + classes[norfairLabel], (x1, y1-10), cv2.FONT_HERSHEY_SIMPLEX, 0.9, (36,255,12), 2)
             print(str(track.id) + ': ' + classes[norfairLabel])
@@ -180,7 +180,7 @@ def callback_Img(data):
                 boundingBoxMsg.group.append(0)
                 boundingBoxMsg.group.append(6)
             else:
-                boundingBoxMsg.group.append(norfairLabeltoBlinkingGroupField[norfairLabel])
+                boundingBoxMsg.group.append(norfairLabeltoGroupField[norfairLabel])
         resultPubMsg.bounding_boxes.append(boundingBoxMsg)
     
     resultPubMsg.header.stamp = data.header.stamp
@@ -221,7 +221,7 @@ def callback_Img(data):
     '''
 rclpy.init()
 colorImgSub = rclpy.node.Node('image_subscriber')
-colorImgSub.create_subscription(Image, '/camera/left/image_raw', callback_Img, 1000)
+colorImgSub.create_subscription(Image, '/front_camera/image_raw', callback_Img, 1000)
 resultPub = rclpy.node.Node('result_publisher').create_publisher(BoundingBoxes, '/project_result', 10)
 # grayImgPub = rclpy.node.Node('image_publisher').create_publisher(Image, '/img_gray', 10)
 rclpy.spin(colorImgSub)

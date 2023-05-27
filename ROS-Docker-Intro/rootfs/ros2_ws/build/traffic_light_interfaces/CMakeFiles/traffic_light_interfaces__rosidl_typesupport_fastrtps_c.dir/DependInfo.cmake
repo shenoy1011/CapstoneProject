@@ -1,39 +1,18 @@
+
+# Consider dependencies only in project.
+set(CMAKE_DEPENDS_IN_PROJECT_ONLY OFF)
+
 # The set of languages for which implicit dependencies are needed:
 set(CMAKE_DEPENDS_LANGUAGES
-  "CXX"
-  )
-# The set of files for implicit dependencies of each language:
-set(CMAKE_DEPENDS_CHECK_CXX
-  "/root/rootfs/ros2_ws/build/traffic_light_interfaces/rosidl_typesupport_fastrtps_c/traffic_light_interfaces/msg/detail/b_box_center__type_support_c.cpp" "/root/rootfs/ros2_ws/build/traffic_light_interfaces/CMakeFiles/traffic_light_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/traffic_light_interfaces/msg/detail/b_box_center__type_support_c.cpp.o"
-  "/root/rootfs/ros2_ws/build/traffic_light_interfaces/rosidl_typesupport_fastrtps_c/traffic_light_interfaces/msg/detail/b_box_centers__type_support_c.cpp" "/root/rootfs/ros2_ws/build/traffic_light_interfaces/CMakeFiles/traffic_light_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/traffic_light_interfaces/msg/detail/b_box_centers__type_support_c.cpp.o"
-  "/root/rootfs/ros2_ws/build/traffic_light_interfaces/rosidl_typesupport_fastrtps_c/traffic_light_interfaces/msg/detail/bounding_box__type_support_c.cpp" "/root/rootfs/ros2_ws/build/traffic_light_interfaces/CMakeFiles/traffic_light_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/traffic_light_interfaces/msg/detail/bounding_box__type_support_c.cpp.o"
-  "/root/rootfs/ros2_ws/build/traffic_light_interfaces/rosidl_typesupport_fastrtps_c/traffic_light_interfaces/msg/detail/bounding_boxes__type_support_c.cpp" "/root/rootfs/ros2_ws/build/traffic_light_interfaces/CMakeFiles/traffic_light_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/traffic_light_interfaces/msg/detail/bounding_boxes__type_support_c.cpp.o"
-  "/root/rootfs/ros2_ws/build/traffic_light_interfaces/rosidl_typesupport_fastrtps_c/traffic_light_interfaces/msg/detail/header__type_support_c.cpp" "/root/rootfs/ros2_ws/build/traffic_light_interfaces/CMakeFiles/traffic_light_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/traffic_light_interfaces/msg/detail/header__type_support_c.cpp.o"
-  )
-set(CMAKE_CXX_COMPILER_ID "GNU")
-
-# Preprocessor definitions for this target.
-set(CMAKE_TARGET_DEFINITIONS_CXX
-  "FOONATHAN_MEMORY=1"
-  "FOONATHAN_MEMORY_VERSION_MAJOR=0"
-  "FOONATHAN_MEMORY_VERSION_MINOR=7"
-  "FOONATHAN_MEMORY_VERSION_PATCH=1"
-  "RCUTILS_ENABLE_FAULT_INJECTION"
-  "ROS_PACKAGE_NAME=\"traffic_light_interfaces\""
-  "traffic_light_interfaces__rosidl_typesupport_fastrtps_c_EXPORTS"
   )
 
-# The include file search paths:
-set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "rosidl_generator_c"
-  "rosidl_generator_cpp"
-  "rosidl_typesupport_fastrtps_c"
-  "rosidl_typesupport_fastrtps_cpp"
-  "/opt/ros/foxy/include/builtin_interfaces/msg/dds_fastrtps_c"
-  "/opt/ros/foxy/include/builtin_interfaces/srv/dds_fastrtps_c"
-  "/opt/ros/foxy/include/builtin_interfaces/action/dds_fastrtps_c"
-  "/opt/ros/foxy/include"
-  "/opt/ros/foxy/include/foonathan_memory"
+# The set of dependency files which are needed:
+set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/root/rootfs/ros2_ws/build/traffic_light_interfaces/rosidl_typesupport_fastrtps_c/traffic_light_interfaces/msg/detail/b_box_center__type_support_c.cpp" "CMakeFiles/traffic_light_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/traffic_light_interfaces/msg/detail/b_box_center__type_support_c.cpp.o" "gcc" "CMakeFiles/traffic_light_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/traffic_light_interfaces/msg/detail/b_box_center__type_support_c.cpp.o.d"
+  "/root/rootfs/ros2_ws/build/traffic_light_interfaces/rosidl_typesupport_fastrtps_c/traffic_light_interfaces/msg/detail/b_box_centers__type_support_c.cpp" "CMakeFiles/traffic_light_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/traffic_light_interfaces/msg/detail/b_box_centers__type_support_c.cpp.o" "gcc" "CMakeFiles/traffic_light_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/traffic_light_interfaces/msg/detail/b_box_centers__type_support_c.cpp.o.d"
+  "/root/rootfs/ros2_ws/build/traffic_light_interfaces/rosidl_typesupport_fastrtps_c/traffic_light_interfaces/msg/detail/bounding_box__type_support_c.cpp" "CMakeFiles/traffic_light_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/traffic_light_interfaces/msg/detail/bounding_box__type_support_c.cpp.o" "gcc" "CMakeFiles/traffic_light_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/traffic_light_interfaces/msg/detail/bounding_box__type_support_c.cpp.o.d"
+  "/root/rootfs/ros2_ws/build/traffic_light_interfaces/rosidl_typesupport_fastrtps_c/traffic_light_interfaces/msg/detail/bounding_boxes__type_support_c.cpp" "CMakeFiles/traffic_light_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/traffic_light_interfaces/msg/detail/bounding_boxes__type_support_c.cpp.o" "gcc" "CMakeFiles/traffic_light_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/traffic_light_interfaces/msg/detail/bounding_boxes__type_support_c.cpp.o.d"
+  "/root/rootfs/ros2_ws/build/traffic_light_interfaces/rosidl_typesupport_fastrtps_c/traffic_light_interfaces/msg/detail/header__type_support_c.cpp" "CMakeFiles/traffic_light_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/traffic_light_interfaces/msg/detail/header__type_support_c.cpp.o" "gcc" "CMakeFiles/traffic_light_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/traffic_light_interfaces/msg/detail/header__type_support_c.cpp.o.d"
   )
 
 # Pairs of files generated by the same build rule.
@@ -50,10 +29,8 @@ set(CMAKE_MULTIPLE_OUTPUT_PAIRS
   )
 
 
-# Targets to which this target links.
-set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/root/rootfs/ros2_ws/build/traffic_light_interfaces/CMakeFiles/traffic_light_interfaces__rosidl_generator_c.dir/DependInfo.cmake"
-  "/root/rootfs/ros2_ws/build/traffic_light_interfaces/CMakeFiles/traffic_light_interfaces__rosidl_typesupport_fastrtps_cpp.dir/DependInfo.cmake"
+# Targets to which this target links which contain Fortran sources.
+set(CMAKE_Fortran_TARGET_LINKED_INFO_FILES
   )
 
 # Fortran module output directory.

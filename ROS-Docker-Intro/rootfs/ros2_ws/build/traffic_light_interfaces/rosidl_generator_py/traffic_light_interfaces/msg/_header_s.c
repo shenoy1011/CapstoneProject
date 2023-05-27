@@ -124,7 +124,7 @@ PyObject * traffic_light_interfaces__msg__header__convert_to_py(void * raw_ros_m
     field = PyUnicode_DecodeUTF8(
       ros_message->frame_id.data,
       strlen(ros_message->frame_id.data),
-      "strict");
+      "replace");
     if (!field) {
       return NULL;
     }
